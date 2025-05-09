@@ -1,0 +1,9 @@
+{"time":"2025-05-08T13:12:01.096929711-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/kha98/Desktop/DiT/wandb/run-20250508_131201-ybw1vl53/logs/debug-core.log"}
+{"time":"2025-05-08T13:12:01.293694233-07:00","level":"INFO","msg":"created new stream","id":"ybw1vl53"}
+{"time":"2025-05-08T13:12:01.293766689-07:00","level":"INFO","msg":"stream: started","id":"ybw1vl53"}
+{"time":"2025-05-08T13:12:01.293818456-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ybw1vl53"}
+{"time":"2025-05-08T13:12:01.293864813-07:00","level":"INFO","msg":"sender: started","stream_id":"ybw1vl53"}
+{"time":"2025-05-08T13:12:01.293893317-07:00","level":"INFO","msg":"handler: started","stream_id":"ybw1vl53"}
+{"time":"2025-05-08T13:12:01.619537969-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T13:36:16.685711139-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-08T13:39:34.19366359-07:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/sfu2/DiT-trucks-retry/ybw1vl53/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

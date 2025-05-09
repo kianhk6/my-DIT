@@ -1,0 +1,176 @@
+[[34m2025-05-08 16:59:35[0m] Training for 1400 epochs...
+[[34m2025-05-08 16:59:35[0m] Beginning epoch 0…
+[[34m2025-05-08 16:59:45[0m] Beginning epoch 1…
+[[34m2025-05-08 16:59:55[0m] Beginning epoch 2…
+[[34m2025-05-08 17:00:05[0m] Beginning epoch 3…
+[[34m2025-05-08 17:00:15[0m] Beginning epoch 4…
+[[34m2025-05-08 17:00:24[0m] (step=0000100) Train Loss: 0.4678, Train Steps/Sec: 1.98
+[[34m2025-05-08 17:00:24[0m] (step=0000100) Train Loss: 0.4678, Train Steps/Sec: 1.98
+[[34m2025-05-08 17:00:24[0m] Beginning epoch 5…
+[[34m2025-05-08 17:00:34[0m] Beginning epoch 6…
+[[34m2025-05-08 17:00:44[0m] Beginning epoch 7…
+[[34m2025-05-08 17:00:54[0m] Beginning epoch 8…
+[[34m2025-05-08 17:01:04[0m] Beginning epoch 9…
+[[34m2025-05-08 17:01:14[0m] (step=0000200) Train Loss: 0.2166, Train Steps/Sec: 2.04
+[[34m2025-05-08 17:01:14[0m] (step=0000200) Train Loss: 0.2166, Train Steps/Sec: 2.04
+[[34m2025-05-08 17:01:14[0m] Beginning epoch 10…
+[[34m2025-05-08 17:01:23[0m] Beginning epoch 11…
+[[34m2025-05-08 17:01:33[0m] Beginning epoch 12…
+[[34m2025-05-08 17:01:43[0m] Beginning epoch 13…
+[[34m2025-05-08 17:01:53[0m] Beginning epoch 14…
+[[34m2025-05-08 17:02:03[0m] (step=0000300) Train Loss: 0.2123, Train Steps/Sec: 2.04
+[[34m2025-05-08 17:02:03[0m] (step=0000300) Train Loss: 0.2123, Train Steps/Sec: 2.04
+[[34m2025-05-08 17:02:03[0m] Beginning epoch 15…
+[[34m2025-05-08 17:02:13[0m] Beginning epoch 16…
+[[34m2025-05-08 17:02:22[0m] Beginning epoch 17…
+[[34m2025-05-08 17:02:32[0m] Beginning epoch 18…
+[[34m2025-05-08 17:02:42[0m] Beginning epoch 19…
+[[34m2025-05-08 17:02:52[0m] (step=0000400) Train Loss: 0.2024, Train Steps/Sec: 2.03
+[[34m2025-05-08 17:02:52[0m] (step=0000400) Train Loss: 0.2024, Train Steps/Sec: 2.03
+[[34m2025-05-08 17:02:52[0m] Beginning epoch 20…
+[[34m2025-05-08 17:03:02[0m] Beginning epoch 21…
+[[34m2025-05-08 17:03:12[0m] Beginning epoch 22…
+[[34m2025-05-08 17:03:22[0m] Beginning epoch 23…
+[[34m2025-05-08 17:03:31[0m] Beginning epoch 24…
+[[34m2025-05-08 17:03:41[0m] (step=0000500) Train Loss: 0.1967, Train Steps/Sec: 2.03
+[[34m2025-05-08 17:03:41[0m] (step=0000500) Train Loss: 0.1967, Train Steps/Sec: 2.03
+[[34m2025-05-08 17:03:46[0m] Saved checkpoint to /NAS/kian/DiT/014-DiT-S-2/checkpoints/0000500.pt
+[[34m2025-05-08 17:03:46[0m] Beginning epoch 25…
+[[34m2025-05-08 17:03:56[0m] Beginning epoch 26…
+[[34m2025-05-08 17:04:05[0m] Beginning epoch 27…
+[[34m2025-05-08 17:04:15[0m] Beginning epoch 28…
+[[34m2025-05-08 17:04:25[0m] Beginning epoch 29…
+[[34m2025-05-08 17:04:35[0m] (step=0000600) Train Loss: 0.2007, Train Steps/Sec: 1.86
+[[34m2025-05-08 17:04:35[0m] (step=0000600) Train Loss: 0.2007, Train Steps/Sec: 1.86
+[[34m2025-05-08 17:04:35[0m] Beginning epoch 30…
+[[34m2025-05-08 17:04:45[0m] Beginning epoch 31…
+[[34m2025-05-08 17:04:55[0m] Beginning epoch 32…
+[[34m2025-05-08 17:05:05[0m] Beginning epoch 33…
+[[34m2025-05-08 17:05:14[0m] Beginning epoch 34…
+[[34m2025-05-08 17:05:24[0m] (step=0000700) Train Loss: 0.1947, Train Steps/Sec: 2.03
+[[34m2025-05-08 17:05:24[0m] (step=0000700) Train Loss: 0.1947, Train Steps/Sec: 2.03
+[[34m2025-05-08 17:05:24[0m] Beginning epoch 35…
+[[34m2025-05-08 17:05:34[0m] Beginning epoch 36…
+[[34m2025-05-08 17:05:44[0m] Beginning epoch 37…
+[[34m2025-05-08 17:05:54[0m] Beginning epoch 38…
+[[34m2025-05-08 17:06:04[0m] Beginning epoch 39…
+[[34m2025-05-08 17:06:14[0m] (step=0000800) Train Loss: 0.1956, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:06:14[0m] (step=0000800) Train Loss: 0.1956, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:06:14[0m] Beginning epoch 40…
+[[34m2025-05-08 17:06:24[0m] Beginning epoch 41…
+[[34m2025-05-08 17:06:34[0m] Beginning epoch 42…
+[[34m2025-05-08 17:06:44[0m] Beginning epoch 43…
+[[34m2025-05-08 17:06:53[0m] Beginning epoch 44…
+[[34m2025-05-08 17:07:03[0m] (step=0000900) Train Loss: 0.1943, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:07:03[0m] (step=0000900) Train Loss: 0.1943, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:07:03[0m] Beginning epoch 45…
+[[34m2025-05-08 17:07:13[0m] Beginning epoch 46…
+[[34m2025-05-08 17:07:23[0m] Beginning epoch 47…
+[[34m2025-05-08 17:07:33[0m] Beginning epoch 48…
+[[34m2025-05-08 17:07:43[0m] Beginning epoch 49…
+[[34m2025-05-08 17:07:53[0m] (step=0001000) Train Loss: 0.1901, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:07:53[0m] (step=0001000) Train Loss: 0.1901, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:08:01[0m] Saved checkpoint to /NAS/kian/DiT/014-DiT-S-2/checkpoints/0001000.pt
+[[34m2025-05-08 17:08:01[0m] Beginning epoch 50…
+[[34m2025-05-08 17:08:11[0m] Beginning epoch 51…
+[[34m2025-05-08 17:08:20[0m] Beginning epoch 52…
+[[34m2025-05-08 17:08:30[0m] Beginning epoch 53…
+[[34m2025-05-08 17:08:40[0m] Beginning epoch 54…
+[[34m2025-05-08 17:08:50[0m] (step=0001100) Train Loss: 0.1931, Train Steps/Sec: 1.75
+[[34m2025-05-08 17:08:50[0m] (step=0001100) Train Loss: 0.1931, Train Steps/Sec: 1.75
+[[34m2025-05-08 17:08:50[0m] Beginning epoch 55…
+[[34m2025-05-08 17:09:00[0m] Beginning epoch 56…
+[[34m2025-05-08 17:09:10[0m] Beginning epoch 57…
+[[34m2025-05-08 17:09:20[0m] Beginning epoch 58…
+[[34m2025-05-08 17:09:30[0m] Beginning epoch 59…
+[[34m2025-05-08 17:09:39[0m] (step=0001200) Train Loss: 0.1933, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:09:39[0m] (step=0001200) Train Loss: 0.1933, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:09:39[0m] Beginning epoch 60…
+[[34m2025-05-08 17:09:49[0m] Beginning epoch 61…
+[[34m2025-05-08 17:09:59[0m] Beginning epoch 62…
+[[34m2025-05-08 17:10:09[0m] Beginning epoch 63…
+[[34m2025-05-08 17:10:19[0m] Beginning epoch 64…
+[[34m2025-05-08 17:10:29[0m] (step=0001300) Train Loss: 0.1957, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:10:29[0m] (step=0001300) Train Loss: 0.1957, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:10:29[0m] Beginning epoch 65…
+[[34m2025-05-08 17:10:39[0m] Beginning epoch 66…
+[[34m2025-05-08 17:10:49[0m] Beginning epoch 67…
+[[34m2025-05-08 17:10:59[0m] Beginning epoch 68…
+[[34m2025-05-08 17:11:09[0m] Beginning epoch 69…
+[[34m2025-05-08 17:11:18[0m] (step=0001400) Train Loss: 0.1911, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:11:18[0m] (step=0001400) Train Loss: 0.1911, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:11:19[0m] Beginning epoch 70…
+[[34m2025-05-08 17:11:28[0m] Beginning epoch 71…
+[[34m2025-05-08 17:11:38[0m] Beginning epoch 72…
+[[34m2025-05-08 17:11:48[0m] Beginning epoch 73…
+[[34m2025-05-08 17:11:58[0m] Beginning epoch 74…
+[[34m2025-05-08 17:12:08[0m] (step=0001500) Train Loss: 0.1926, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:12:08[0m] (step=0001500) Train Loss: 0.1926, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:12:13[0m] Saved checkpoint to /NAS/kian/DiT/014-DiT-S-2/checkpoints/0001500.pt
+[[34m2025-05-08 17:12:13[0m] Beginning epoch 75…
+[[34m2025-05-08 17:12:23[0m] Beginning epoch 76…
+[[34m2025-05-08 17:12:33[0m] Beginning epoch 77…
+[[34m2025-05-08 17:12:43[0m] Beginning epoch 78…
+[[34m2025-05-08 17:12:53[0m] Beginning epoch 79…
+[[34m2025-05-08 17:13:02[0m] (step=0001600) Train Loss: 0.1934, Train Steps/Sec: 1.84
+[[34m2025-05-08 17:13:02[0m] (step=0001600) Train Loss: 0.1934, Train Steps/Sec: 1.84
+[[34m2025-05-08 17:13:02[0m] Beginning epoch 80…
+[[34m2025-05-08 17:13:12[0m] Beginning epoch 81…
+[[34m2025-05-08 17:13:22[0m] Beginning epoch 82…
+[[34m2025-05-08 17:13:32[0m] Beginning epoch 83…
+[[34m2025-05-08 17:13:42[0m] Beginning epoch 84…
+[[34m2025-05-08 17:13:52[0m] (step=0001700) Train Loss: 0.1950, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:13:52[0m] (step=0001700) Train Loss: 0.1950, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:13:52[0m] Beginning epoch 85…
+[[34m2025-05-08 17:14:02[0m] Beginning epoch 86…
+[[34m2025-05-08 17:14:12[0m] Beginning epoch 87…
+[[34m2025-05-08 17:14:22[0m] Beginning epoch 88…
+[[34m2025-05-08 17:14:31[0m] Beginning epoch 89…
+[[34m2025-05-08 17:14:41[0m] (step=0001800) Train Loss: 0.1940, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:14:41[0m] (step=0001800) Train Loss: 0.1940, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:14:41[0m] Beginning epoch 90…
+[[34m2025-05-08 17:14:51[0m] Beginning epoch 91…
+[[34m2025-05-08 17:15:01[0m] Beginning epoch 92…
+[[34m2025-05-08 17:15:11[0m] Beginning epoch 93…
+[[34m2025-05-08 17:15:21[0m] Beginning epoch 94…
+[[34m2025-05-08 17:15:31[0m] (step=0001900) Train Loss: 0.1856, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:15:31[0m] (step=0001900) Train Loss: 0.1856, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:15:31[0m] Beginning epoch 95…
+[[34m2025-05-08 17:15:41[0m] Beginning epoch 96…
+[[34m2025-05-08 17:15:51[0m] Beginning epoch 97…
+[[34m2025-05-08 17:16:01[0m] Beginning epoch 98…
+[[34m2025-05-08 17:16:10[0m] Beginning epoch 99…
+[[34m2025-05-08 17:16:20[0m] (step=0002000) Train Loss: 0.1929, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:16:20[0m] (step=0002000) Train Loss: 0.1929, Train Steps/Sec: 2.02
+[[34m2025-05-08 17:16:28[0m] Saved checkpoint to /NAS/kian/DiT/014-DiT-S-2/checkpoints/0002000.pt
+[[34m2025-05-08 17:16:28[0m] Beginning epoch 100…
+[[34m2025-05-08 17:16:38[0m] Beginning epoch 101…
+[[34m2025-05-08 17:16:47[0m] Beginning epoch 102…
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 328, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 256, in main
+    loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+    return super().training_losses(self._wrap_model(model), *args, **kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 731, in training_losses
+    x_t = self.q_sample(x_start, t, noise=noise)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 228, in q_sample
+    _extract_into_tensor(self.sqrt_alphas_cumprod, t, x_start.shape) * x_start
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+    res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 328, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 256, in main
+[rank0]:     loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+[rank0]:     return super().training_losses(self._wrap_model(model), *args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 731, in training_losses
+[rank0]:     x_t = self.q_sample(x_start, t, noise=noise)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 228, in q_sample
+[rank0]:     _extract_into_tensor(self.sqrt_alphas_cumprod, t, x_start.shape) * x_start
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+[rank0]:     res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+[rank0]: KeyboardInterrupt

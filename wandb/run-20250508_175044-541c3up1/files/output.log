@@ -1,0 +1,79 @@
+[[34m2025-05-08 17:50:44[0m] Dataset contains 1,300 images (/NAS/Data/imagenet_trucks)
+[[34m2025-05-08 17:50:44[0m] Training for 1400 epochs...
+[[34m2025-05-08 17:50:44[0m] Beginning epoch 0…
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 346, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 270, in main
+    x = vae.encode(x).latent_dist.sample().mul_(0.18215)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/utils/accelerate_utils.py", line 46, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 278, in encode
+    h = self._encode(x)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 252, in _encode
+    enc = self.encoder(x)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/autoencoders/vae.py", line 168, in forward
+    sample = down_block(sample)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/unets/unet_2d_blocks.py", line 1446, in forward
+    hidden_states = downsampler(hidden_states)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/downsampling.py", line 147, in forward
+    hidden_states = self.conv(hidden_states)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 346, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 270, in main
+[rank0]:     x = vae.encode(x).latent_dist.sample().mul_(0.18215)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/utils/accelerate_utils.py", line 46, in wrapper
+[rank0]:     return method(self, *args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 278, in encode
+[rank0]:     h = self._encode(x)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 252, in _encode
+[rank0]:     enc = self.encoder(x)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/autoencoders/vae.py", line 168, in forward
+[rank0]:     sample = down_block(sample)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/unets/unet_2d_blocks.py", line 1446, in forward
+[rank0]:     hidden_states = downsampler(hidden_states)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/diffusers/models/downsampling.py", line 147, in forward
+[rank0]:     hidden_states = self.conv(hidden_states)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+[rank0]:     return self._conv_forward(input, self.weight, self.bias)
+[rank0]:   File "/home/kha98/Desktop/.venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+[rank0]:     return F.conv2d(
+[rank0]: KeyboardInterrupt

@@ -1,0 +1,14 @@
+[[34m2025-05-08 12:58:26[0m] Training for 1400 epochs...
+[[34m2025-05-08 12:58:26[0m] Beginning epoch 0...
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 318, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 248, in main
+    x = vae.encode(x).latent_dist.sample().mul_(0.18215)
+UnboundLocalError: local variable 'vae' referenced before assignment
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 318, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 248, in main
+[rank0]:     x = vae.encode(x).latent_dist.sample().mul_(0.18215)
+[rank0]: UnboundLocalError: local variable 'vae' referenced before assignment

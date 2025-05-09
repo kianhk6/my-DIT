@@ -1,0 +1,30 @@
+[[34m2025-05-08 17:33:41[0m] Training for 1400 epochs...
+[[34m2025-05-08 17:33:41[0m] Beginning epoch 0…
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 333, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 261, in main
+    loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+    return super().training_losses(self._wrap_model(model), *args, **kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 731, in training_losses
+    x_t = self.q_sample(x_start, t, noise=noise)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 228, in q_sample
+    _extract_into_tensor(self.sqrt_alphas_cumprod, t, x_start.shape) * x_start
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+    res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 333, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 261, in main
+[rank0]:     loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+[rank0]:     return super().training_losses(self._wrap_model(model), *args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 731, in training_losses
+[rank0]:     x_t = self.q_sample(x_start, t, noise=noise)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 228, in q_sample
+[rank0]:     _extract_into_tensor(self.sqrt_alphas_cumprod, t, x_start.shape) * x_start
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+[rank0]:     res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+[rank0]: KeyboardInterrupt

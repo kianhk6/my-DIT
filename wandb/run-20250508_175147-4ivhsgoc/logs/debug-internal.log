@@ -1,0 +1,7 @@
+{"time":"2025-05-08T17:51:47.738578605-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/kha98/Desktop/DiT/wandb/run-20250508_175147-4ivhsgoc/logs/debug-core.log"}
+{"time":"2025-05-08T17:51:47.934507311-07:00","level":"INFO","msg":"created new stream","id":"4ivhsgoc"}
+{"time":"2025-05-08T17:51:47.934532138-07:00","level":"INFO","msg":"stream: started","id":"4ivhsgoc"}
+{"time":"2025-05-08T17:51:47.934543209-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"4ivhsgoc"}
+{"time":"2025-05-08T17:51:47.934558167-07:00","level":"INFO","msg":"handler: started","stream_id":"4ivhsgoc"}
+{"time":"2025-05-08T17:51:47.934579678-07:00","level":"INFO","msg":"sender: started","stream_id":"4ivhsgoc"}
+{"time":"2025-05-08T17:51:48.219850862-07:00","level":"INFO","msg":"Starting system monitor"}

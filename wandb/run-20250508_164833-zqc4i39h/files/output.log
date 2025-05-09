@@ -1,0 +1,88 @@
+[[34m2025-05-08 16:48:34[0m] Training for 1400 epochs...
+[[34m2025-05-08 16:48:34[0m] Beginning epoch 0…
+[[34m2025-05-08 16:48:44[0m] Beginning epoch 1…
+[[34m2025-05-08 16:48:54[0m] Beginning epoch 2…
+[[34m2025-05-08 16:49:04[0m] Beginning epoch 3…
+[[34m2025-05-08 16:49:13[0m] Beginning epoch 4…
+[[34m2025-05-08 16:49:23[0m] (step=0000100) Train Loss: 0.4678, Train Steps/Sec: 2.00
+[[34m2025-05-08 16:49:23[0m] (step=0000100) Train Loss: 0.4678, Train Steps/Sec: 2.00
+[[34m2025-05-08 16:49:23[0m] Beginning epoch 5…
+[[34m2025-05-08 16:49:33[0m] Beginning epoch 6…
+[[34m2025-05-08 16:49:43[0m] Beginning epoch 7…
+[[34m2025-05-08 16:49:53[0m] Beginning epoch 8…
+[[34m2025-05-08 16:50:02[0m] Beginning epoch 9…
+[[34m2025-05-08 16:50:12[0m] (step=0000200) Train Loss: 0.2166, Train Steps/Sec: 2.04
+[[34m2025-05-08 16:50:12[0m] (step=0000200) Train Loss: 0.2166, Train Steps/Sec: 2.04
+[[34m2025-05-08 16:50:12[0m] Beginning epoch 10…
+[[34m2025-05-08 16:50:22[0m] Beginning epoch 11…
+[[34m2025-05-08 16:50:32[0m] Beginning epoch 12…
+[[34m2025-05-08 16:50:42[0m] Beginning epoch 13…
+[[34m2025-05-08 16:50:52[0m] Beginning epoch 14…
+[[34m2025-05-08 16:51:01[0m] (step=0000300) Train Loss: 0.2123, Train Steps/Sec: 2.03
+[[34m2025-05-08 16:51:01[0m] (step=0000300) Train Loss: 0.2123, Train Steps/Sec: 2.03
+[[34m2025-05-08 16:51:01[0m] Beginning epoch 15…
+[[34m2025-05-08 16:51:11[0m] Beginning epoch 16…
+[[34m2025-05-08 16:51:21[0m] Beginning epoch 17…
+[[34m2025-05-08 16:51:31[0m] Beginning epoch 18…
+[[34m2025-05-08 16:51:41[0m] Beginning epoch 19…
+[[34m2025-05-08 16:51:51[0m] (step=0000400) Train Loss: 0.2025, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:51:51[0m] (step=0000400) Train Loss: 0.2025, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:51:54[0m] Beginning epoch 20…
+[[34m2025-05-08 16:52:04[0m] Beginning epoch 21…
+[[34m2025-05-08 16:52:14[0m] Beginning epoch 22…
+[[34m2025-05-08 16:52:24[0m] Beginning epoch 23…
+[[34m2025-05-08 16:52:33[0m] Beginning epoch 24…
+[[34m2025-05-08 16:52:43[0m] (step=0000500) Train Loss: 0.1967, Train Steps/Sec: 1.90
+[[34m2025-05-08 16:52:43[0m] (step=0000500) Train Loss: 0.1967, Train Steps/Sec: 1.90
+[[34m2025-05-08 16:52:43[0m] Beginning epoch 25…
+[[34m2025-05-08 16:52:53[0m] Beginning epoch 26…
+[[34m2025-05-08 16:53:03[0m] Beginning epoch 27…
+[[34m2025-05-08 16:53:13[0m] Beginning epoch 28…
+[[34m2025-05-08 16:53:23[0m] Beginning epoch 29…
+[[34m2025-05-08 16:53:33[0m] (step=0000600) Train Loss: 0.2008, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:53:33[0m] (step=0000600) Train Loss: 0.2008, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:53:33[0m] Beginning epoch 30…
+[[34m2025-05-08 16:53:43[0m] Beginning epoch 31…
+[[34m2025-05-08 16:53:53[0m] Beginning epoch 32…
+[[34m2025-05-08 16:54:03[0m] Beginning epoch 33…
+[[34m2025-05-08 16:54:12[0m] Beginning epoch 34…
+[[34m2025-05-08 16:54:22[0m] (step=0000700) Train Loss: 0.1946, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:54:22[0m] (step=0000700) Train Loss: 0.1946, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:54:22[0m] Beginning epoch 35…
+[[34m2025-05-08 16:54:32[0m] Beginning epoch 36…
+[[34m2025-05-08 16:54:42[0m] Beginning epoch 37…
+[[34m2025-05-08 16:54:52[0m] Beginning epoch 38…
+[[34m2025-05-08 16:55:02[0m] Beginning epoch 39…
+[[34m2025-05-08 16:55:12[0m] (step=0000800) Train Loss: 0.1956, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:55:12[0m] (step=0000800) Train Loss: 0.1956, Train Steps/Sec: 2.02
+[[34m2025-05-08 16:55:12[0m] Beginning epoch 40…
+[[34m2025-05-08 16:55:22[0m] Beginning epoch 41…
+[[34m2025-05-08 16:55:32[0m] Beginning epoch 42…
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 328, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 256, in main
+    loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+    return super().training_losses(self._wrap_model(model), *args, **kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 731, in training_losses
+    x_t = self.q_sample(x_start, t, noise=noise)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 228, in q_sample
+    _extract_into_tensor(self.sqrt_alphas_cumprod, t, x_start.shape) * x_start
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+    res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 328, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 256, in main
+[rank0]:     loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+[rank0]:     return super().training_losses(self._wrap_model(model), *args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 731, in training_losses
+[rank0]:     x_t = self.q_sample(x_start, t, noise=noise)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 228, in q_sample
+[rank0]:     _extract_into_tensor(self.sqrt_alphas_cumprod, t, x_start.shape) * x_start
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+[rank0]:     res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+[rank0]: KeyboardInterrupt

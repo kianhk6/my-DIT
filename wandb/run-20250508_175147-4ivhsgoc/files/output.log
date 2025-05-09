@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 346, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 273, in main
+    loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+    return super().training_losses(self._wrap_model(model), *args, **kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 759, in training_losses
+    terms["vb"] = self._vb_terms_bpd(
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 693, in _vb_terms_bpd
+    true_mean, _, true_log_variance_clipped = self.q_posterior_mean_variance(
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 239, in q_posterior_mean_variance
+    _extract_into_tensor(self.posterior_mean_coef1, t, x_t.shape) * x_start
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+    res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+KeyboardInterrupt
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/kha98/Desktop/DiT/train.py", line 346, in <module>
+[rank1]:     main(args)
+[rank1]:   File "/home/kha98/Desktop/DiT/train.py", line 273, in main
+[rank1]:     loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+[rank1]:   File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+[rank1]:     return super().training_losses(self._wrap_model(model), *args, **kwargs)
+[rank1]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 759, in training_losses
+[rank1]:     terms["vb"] = self._vb_terms_bpd(
+[rank1]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 693, in _vb_terms_bpd
+[rank1]:     true_mean, _, true_log_variance_clipped = self.q_posterior_mean_variance(
+[rank1]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 239, in q_posterior_mean_variance
+[rank1]:     _extract_into_tensor(self.posterior_mean_coef1, t, x_t.shape) * x_start
+[rank1]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+[rank1]:     res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+[rank1]: KeyboardInterrupt

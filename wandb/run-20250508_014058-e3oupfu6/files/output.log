@@ -1,0 +1,112 @@
+[[34m2025-05-08 01:40:59[0m] Training for 1400 epochs...
+[[34m2025-05-08 01:40:59[0m] Beginning epoch 0...
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 280, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 210, in main
+    x = vae.encode(x).latent_dist.sample().mul_(0.18215)
+        ^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/utils/accelerate_utils.py", line 46, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 278, in encode
+    h = self._encode(x)
+        ^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 252, in _encode
+    enc = self.encoder(x)
+          ^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/autoencoders/vae.py", line 168, in forward
+    sample = down_block(sample)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/unets/unet_2d_blocks.py", line 1442, in forward
+    hidden_states = resnet(hidden_states, temb=None)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/resnet.py", line 328, in forward
+    hidden_states = self.nonlinearity(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 432, in forward
+    return F.silu(input, inplace=self.inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/functional.py", line 2380, in silu
+    return torch._C._nn.silu(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 23.69 GiB of which 1.67 GiB is free. Including non-PyTorch memory, this process has 21.86 GiB memory in use. Of the allocated memory 8.98 GiB is allocated by PyTorch, and 12.44 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 280, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 210, in main
+[rank0]:     x = vae.encode(x).latent_dist.sample().mul_(0.18215)
+[rank0]:         ^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/utils/accelerate_utils.py", line 46, in wrapper
+[rank0]:     return method(self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 278, in encode
+[rank0]:     h = self._encode(x)
+[rank0]:         ^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 252, in _encode
+[rank0]:     enc = self.encoder(x)
+[rank0]:           ^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/autoencoders/vae.py", line 168, in forward
+[rank0]:     sample = down_block(sample)
+[rank0]:              ^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/unets/unet_2d_blocks.py", line 1442, in forward
+[rank0]:     hidden_states = resnet(hidden_states, temb=None)
+[rank0]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/diffusers/models/resnet.py", line 328, in forward
+[rank0]:     hidden_states = self.nonlinearity(hidden_states)
+[rank0]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 432, in forward
+[rank0]:     return F.silu(input, inplace=self.inplace)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/kha98/miniconda3/envs/DiT/lib/python3.12/site-packages/torch/nn/functional.py", line 2380, in silu
+[rank0]:     return torch._C._nn.silu(input)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 23.69 GiB of which 1.67 GiB is free. Including non-PyTorch memory, this process has 21.86 GiB memory in use. Of the allocated memory 8.98 GiB is allocated by PyTorch, and 12.44 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,1122 @@
+[[34m2025-05-08 14:34:29[0m] Training for 1400 epochs...
+[[34m2025-05-08 14:34:29[0m] Beginning epoch 600…
+[[34m2025-05-08 14:34:40[0m] Beginning epoch 601…
+[[34m2025-05-08 14:34:49[0m] Beginning epoch 602…
+[[34m2025-05-08 14:34:59[0m] Beginning epoch 603…
+[[34m2025-05-08 14:35:09[0m] Beginning epoch 604…
+[[34m2025-05-08 14:35:19[0m] (step=0012100) Train Loss: 0.1670, Train Steps/Sec: 1.97
+[[34m2025-05-08 14:35:19[0m] (step=0012100) Train Loss: 0.1670, Train Steps/Sec: 1.97
+[[34m2025-05-08 14:35:19[0m] Beginning epoch 605…
+[[34m2025-05-08 14:35:29[0m] Beginning epoch 606…
+[[34m2025-05-08 14:35:39[0m] Beginning epoch 607…
+[[34m2025-05-08 14:35:49[0m] Beginning epoch 608…
+[[34m2025-05-08 14:35:59[0m] Beginning epoch 609…
+[[34m2025-05-08 14:36:09[0m] (step=0012200) Train Loss: 0.1736, Train Steps/Sec: 2.02
+[[34m2025-05-08 14:36:09[0m] (step=0012200) Train Loss: 0.1736, Train Steps/Sec: 2.02
+[[34m2025-05-08 14:36:09[0m] Beginning epoch 610…
+[[34m2025-05-08 14:36:19[0m] Beginning epoch 611…
+[[34m2025-05-08 14:36:29[0m] Beginning epoch 612…
+[[34m2025-05-08 14:36:38[0m] Beginning epoch 613…
+[[34m2025-05-08 14:36:48[0m] Beginning epoch 614…
+[[34m2025-05-08 14:36:58[0m] (step=0012300) Train Loss: 0.1768, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:36:58[0m] (step=0012300) Train Loss: 0.1768, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:36:58[0m] Beginning epoch 615…
+[[34m2025-05-08 14:37:08[0m] Beginning epoch 616…
+[[34m2025-05-08 14:37:18[0m] Beginning epoch 617…
+[[34m2025-05-08 14:37:28[0m] Beginning epoch 618…
+[[34m2025-05-08 14:37:38[0m] Beginning epoch 619…
+[[34m2025-05-08 14:37:48[0m] (step=0012400) Train Loss: 0.1714, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:37:48[0m] (step=0012400) Train Loss: 0.1714, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:37:48[0m] Beginning epoch 620…
+[[34m2025-05-08 14:37:58[0m] Beginning epoch 621…
+[[34m2025-05-08 14:38:08[0m] Beginning epoch 622…
+[[34m2025-05-08 14:38:18[0m] Beginning epoch 623…
+[[34m2025-05-08 14:38:28[0m] Beginning epoch 624…
+[[34m2025-05-08 14:38:38[0m] (step=0012500) Train Loss: 0.1682, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:38:38[0m] (step=0012500) Train Loss: 0.1682, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:38:38[0m] Beginning epoch 625…
+[[34m2025-05-08 14:38:48[0m] Beginning epoch 626…
+[[34m2025-05-08 14:38:58[0m] Beginning epoch 627…
+[[34m2025-05-08 14:39:08[0m] Beginning epoch 628…
+[[34m2025-05-08 14:39:18[0m] Beginning epoch 629…
+[[34m2025-05-08 14:39:28[0m] (step=0012600) Train Loss: 0.1730, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:39:28[0m] (step=0012600) Train Loss: 0.1730, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:39:28[0m] Beginning epoch 630…
+[[34m2025-05-08 14:39:37[0m] Beginning epoch 631…
+[[34m2025-05-08 14:39:47[0m] Beginning epoch 632…
+[[34m2025-05-08 14:39:57[0m] Beginning epoch 633…
+[[34m2025-05-08 14:40:07[0m] Beginning epoch 634…
+[[34m2025-05-08 14:40:17[0m] (step=0012700) Train Loss: 0.1678, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:40:17[0m] (step=0012700) Train Loss: 0.1678, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:40:17[0m] Beginning epoch 635…
+[[34m2025-05-08 14:40:27[0m] Beginning epoch 636…
+[[34m2025-05-08 14:40:37[0m] Beginning epoch 637…
+[[34m2025-05-08 14:40:47[0m] Beginning epoch 638…
+[[34m2025-05-08 14:40:57[0m] Beginning epoch 639…
+[[34m2025-05-08 14:41:07[0m] (step=0012800) Train Loss: 0.1697, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:41:07[0m] (step=0012800) Train Loss: 0.1697, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:41:07[0m] Beginning epoch 640…
+[[34m2025-05-08 14:41:17[0m] Beginning epoch 641…
+[[34m2025-05-08 14:41:27[0m] Beginning epoch 642…
+[[34m2025-05-08 14:41:37[0m] Beginning epoch 643…
+[[34m2025-05-08 14:41:47[0m] Beginning epoch 644…
+[[34m2025-05-08 14:41:57[0m] (step=0012900) Train Loss: 0.1690, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:41:57[0m] (step=0012900) Train Loss: 0.1690, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:41:57[0m] Beginning epoch 645…
+[[34m2025-05-08 14:42:07[0m] Beginning epoch 646…
+[[34m2025-05-08 14:42:17[0m] Beginning epoch 647…
+[[34m2025-05-08 14:42:27[0m] Beginning epoch 648…
+[[34m2025-05-08 14:42:37[0m] Beginning epoch 649…
+[[34m2025-05-08 14:42:47[0m] (step=0013000) Train Loss: 0.1662, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:42:47[0m] (step=0013000) Train Loss: 0.1662, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:42:47[0m] Beginning epoch 650…
+[[34m2025-05-08 14:42:56[0m] Beginning epoch 651…
+[[34m2025-05-08 14:43:06[0m] Beginning epoch 652…
+[[34m2025-05-08 14:43:16[0m] Beginning epoch 653…
+[[34m2025-05-08 14:43:26[0m] Beginning epoch 654…
+[[34m2025-05-08 14:43:36[0m] (step=0013100) Train Loss: 0.1697, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:43:36[0m] (step=0013100) Train Loss: 0.1697, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:43:36[0m] Beginning epoch 655…
+[[34m2025-05-08 14:43:46[0m] Beginning epoch 656…
+[[34m2025-05-08 14:43:56[0m] Beginning epoch 657…
+[[34m2025-05-08 14:44:06[0m] Beginning epoch 658…
+[[34m2025-05-08 14:44:16[0m] Beginning epoch 659…
+[[34m2025-05-08 14:44:26[0m] (step=0013200) Train Loss: 0.1707, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:44:26[0m] (step=0013200) Train Loss: 0.1707, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:44:26[0m] Beginning epoch 660…
+[[34m2025-05-08 14:44:36[0m] Beginning epoch 661…
+[[34m2025-05-08 14:44:46[0m] Beginning epoch 662…
+[[34m2025-05-08 14:44:56[0m] Beginning epoch 663…
+[[34m2025-05-08 14:45:06[0m] Beginning epoch 664…
+[[34m2025-05-08 14:45:16[0m] (step=0013300) Train Loss: 0.1730, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:45:16[0m] (step=0013300) Train Loss: 0.1730, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:45:16[0m] Beginning epoch 665…
+[[34m2025-05-08 14:45:26[0m] Beginning epoch 666…
+[[34m2025-05-08 14:45:36[0m] Beginning epoch 667…
+[[34m2025-05-08 14:45:46[0m] Beginning epoch 668…
+[[34m2025-05-08 14:45:56[0m] Beginning epoch 669…
+[[34m2025-05-08 14:46:05[0m] (step=0013400) Train Loss: 0.1685, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:46:05[0m] (step=0013400) Train Loss: 0.1685, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:46:06[0m] Beginning epoch 670…
+[[34m2025-05-08 14:46:15[0m] Beginning epoch 671…
+[[34m2025-05-08 14:46:25[0m] Beginning epoch 672…
+[[34m2025-05-08 14:46:35[0m] Beginning epoch 673…
+[[34m2025-05-08 14:46:45[0m] Beginning epoch 674…
+[[34m2025-05-08 14:46:55[0m] (step=0013500) Train Loss: 0.1715, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:46:55[0m] (step=0013500) Train Loss: 0.1715, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:46:55[0m] Beginning epoch 675…
+[[34m2025-05-08 14:47:05[0m] Beginning epoch 676…
+[[34m2025-05-08 14:47:15[0m] Beginning epoch 677…
+[[34m2025-05-08 14:47:25[0m] Beginning epoch 678…
+[[34m2025-05-08 14:47:35[0m] Beginning epoch 679…
+[[34m2025-05-08 14:47:45[0m] (step=0013600) Train Loss: 0.1722, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:47:45[0m] (step=0013600) Train Loss: 0.1722, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:47:45[0m] Beginning epoch 680…
+[[34m2025-05-08 14:47:55[0m] Beginning epoch 681…
+[[34m2025-05-08 14:48:05[0m] Beginning epoch 682…
+[[34m2025-05-08 14:48:15[0m] Beginning epoch 683…
+[[34m2025-05-08 14:48:25[0m] Beginning epoch 684…
+[[34m2025-05-08 14:48:35[0m] (step=0013700) Train Loss: 0.1743, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:48:35[0m] (step=0013700) Train Loss: 0.1743, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:48:35[0m] Beginning epoch 685…
+[[34m2025-05-08 14:48:45[0m] Beginning epoch 686…
+[[34m2025-05-08 14:48:55[0m] Beginning epoch 687…
+[[34m2025-05-08 14:49:05[0m] Beginning epoch 688…
+[[34m2025-05-08 14:49:14[0m] Beginning epoch 689…
+[[34m2025-05-08 14:49:24[0m] (step=0013800) Train Loss: 0.1737, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:49:24[0m] (step=0013800) Train Loss: 0.1737, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:49:24[0m] Beginning epoch 690…
+[[34m2025-05-08 14:49:34[0m] Beginning epoch 691…
+[[34m2025-05-08 14:49:44[0m] Beginning epoch 692…
+[[34m2025-05-08 14:49:54[0m] Beginning epoch 693…
+[[34m2025-05-08 14:50:04[0m] Beginning epoch 694…
+[[34m2025-05-08 14:50:14[0m] (step=0013900) Train Loss: 0.1661, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:50:14[0m] (step=0013900) Train Loss: 0.1661, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:50:14[0m] Beginning epoch 695…
+[[34m2025-05-08 14:50:24[0m] Beginning epoch 696…
+[[34m2025-05-08 14:50:34[0m] Beginning epoch 697…
+[[34m2025-05-08 14:50:44[0m] Beginning epoch 698…
+[[34m2025-05-08 14:50:54[0m] Beginning epoch 699…
+[[34m2025-05-08 14:51:04[0m] (step=0014000) Train Loss: 0.1730, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:51:04[0m] (step=0014000) Train Loss: 0.1730, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:51:04[0m] Beginning epoch 700…
+[[34m2025-05-08 14:51:14[0m] Beginning epoch 701…
+[[34m2025-05-08 14:51:24[0m] Beginning epoch 702…
+[[34m2025-05-08 14:51:34[0m] Beginning epoch 703…
+[[34m2025-05-08 14:51:44[0m] Beginning epoch 704…
+[[34m2025-05-08 14:51:53[0m] (step=0014100) Train Loss: 0.1687, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:51:53[0m] (step=0014100) Train Loss: 0.1687, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:51:53[0m] Beginning epoch 705…
+[[34m2025-05-08 14:52:03[0m] Beginning epoch 706…
+[[34m2025-05-08 14:52:13[0m] Beginning epoch 707…
+[[34m2025-05-08 14:52:23[0m] Beginning epoch 708…
+[[34m2025-05-08 14:52:33[0m] Beginning epoch 709…
+[[34m2025-05-08 14:52:43[0m] (step=0014200) Train Loss: 0.1652, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:52:43[0m] (step=0014200) Train Loss: 0.1652, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:52:43[0m] Beginning epoch 710…
+[[34m2025-05-08 14:52:53[0m] Beginning epoch 711…
+[[34m2025-05-08 14:53:03[0m] Beginning epoch 712…
+[[34m2025-05-08 14:53:13[0m] Beginning epoch 713…
+[[34m2025-05-08 14:53:23[0m] Beginning epoch 714…
+[[34m2025-05-08 14:53:33[0m] (step=0014300) Train Loss: 0.1702, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:53:33[0m] (step=0014300) Train Loss: 0.1702, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:53:33[0m] Beginning epoch 715…
+[[34m2025-05-08 14:53:43[0m] Beginning epoch 716…
+[[34m2025-05-08 14:53:53[0m] Beginning epoch 717…
+[[34m2025-05-08 14:54:03[0m] Beginning epoch 718…
+[[34m2025-05-08 14:54:13[0m] Beginning epoch 719…
+[[34m2025-05-08 14:54:23[0m] (step=0014400) Train Loss: 0.1686, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:54:23[0m] (step=0014400) Train Loss: 0.1686, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:54:23[0m] Beginning epoch 720…
+[[34m2025-05-08 14:54:33[0m] Beginning epoch 721…
+[[34m2025-05-08 14:54:42[0m] Beginning epoch 722…
+[[34m2025-05-08 14:54:52[0m] Beginning epoch 723…
+[[34m2025-05-08 14:55:02[0m] Beginning epoch 724…
+[[34m2025-05-08 14:55:12[0m] (step=0014500) Train Loss: 0.1671, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:55:12[0m] (step=0014500) Train Loss: 0.1671, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:55:12[0m] Beginning epoch 725…
+[[34m2025-05-08 14:55:22[0m] Beginning epoch 726…
+[[34m2025-05-08 14:55:32[0m] Beginning epoch 727…
+[[34m2025-05-08 14:55:42[0m] Beginning epoch 728…
+[[34m2025-05-08 14:55:52[0m] Beginning epoch 729…
+[[34m2025-05-08 14:56:02[0m] (step=0014600) Train Loss: 0.1705, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:56:02[0m] (step=0014600) Train Loss: 0.1705, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:56:02[0m] Beginning epoch 730…
+[[34m2025-05-08 14:56:12[0m] Beginning epoch 731…
+[[34m2025-05-08 14:56:22[0m] Beginning epoch 732…
+[[34m2025-05-08 14:56:32[0m] Beginning epoch 733…
+[[34m2025-05-08 14:56:42[0m] Beginning epoch 734…
+[[34m2025-05-08 14:56:52[0m] (step=0014700) Train Loss: 0.1651, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:56:52[0m] (step=0014700) Train Loss: 0.1651, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:56:52[0m] Beginning epoch 735…
+[[34m2025-05-08 14:57:02[0m] Beginning epoch 736…
+[[34m2025-05-08 14:57:12[0m] Beginning epoch 737…
+[[34m2025-05-08 14:57:22[0m] Beginning epoch 738…
+[[34m2025-05-08 14:57:32[0m] Beginning epoch 739…
+[[34m2025-05-08 14:57:42[0m] (step=0014800) Train Loss: 0.1672, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:57:42[0m] (step=0014800) Train Loss: 0.1672, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:57:42[0m] Beginning epoch 740…
+[[34m2025-05-08 14:57:52[0m] Beginning epoch 741…
+[[34m2025-05-08 14:58:02[0m] Beginning epoch 742…
+[[34m2025-05-08 14:58:12[0m] Beginning epoch 743…
+[[34m2025-05-08 14:58:22[0m] Beginning epoch 744…
+[[34m2025-05-08 14:58:32[0m] (step=0014900) Train Loss: 0.1692, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:58:32[0m] (step=0014900) Train Loss: 0.1692, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:58:32[0m] Beginning epoch 745…
+[[34m2025-05-08 14:58:42[0m] Beginning epoch 746…
+[[34m2025-05-08 14:58:52[0m] Beginning epoch 747…
+[[34m2025-05-08 14:59:01[0m] Beginning epoch 748…
+[[34m2025-05-08 14:59:11[0m] Beginning epoch 749…
+[[34m2025-05-08 14:59:21[0m] (step=0015000) Train Loss: 0.1713, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:59:21[0m] (step=0015000) Train Loss: 0.1713, Train Steps/Sec: 2.01
+[[34m2025-05-08 14:59:21[0m] Beginning epoch 750…
+[[34m2025-05-08 14:59:31[0m] Beginning epoch 751…
+[[34m2025-05-08 14:59:41[0m] Beginning epoch 752…
+[[34m2025-05-08 14:59:51[0m] Beginning epoch 753…
+[[34m2025-05-08 15:00:01[0m] Beginning epoch 754…
+[[34m2025-05-08 15:00:11[0m] (step=0015100) Train Loss: 0.1725, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:00:11[0m] (step=0015100) Train Loss: 0.1725, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:00:11[0m] Beginning epoch 755…
+[[34m2025-05-08 15:00:21[0m] Beginning epoch 756…
+[[34m2025-05-08 15:00:31[0m] Beginning epoch 757…
+[[34m2025-05-08 15:00:41[0m] Beginning epoch 758…
+[[34m2025-05-08 15:00:51[0m] Beginning epoch 759…
+[[34m2025-05-08 15:01:01[0m] (step=0015200) Train Loss: 0.1725, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:01:01[0m] (step=0015200) Train Loss: 0.1725, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:01:01[0m] Beginning epoch 760…
+[[34m2025-05-08 15:01:11[0m] Beginning epoch 761…
+[[34m2025-05-08 15:01:21[0m] Beginning epoch 762…
+[[34m2025-05-08 15:01:31[0m] Beginning epoch 763…
+[[34m2025-05-08 15:01:41[0m] Beginning epoch 764…
+[[34m2025-05-08 15:01:51[0m] (step=0015300) Train Loss: 0.1709, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:01:51[0m] (step=0015300) Train Loss: 0.1709, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:01:51[0m] Beginning epoch 765…
+[[34m2025-05-08 15:02:01[0m] Beginning epoch 766…
+[[34m2025-05-08 15:02:11[0m] Beginning epoch 767…
+[[34m2025-05-08 15:02:21[0m] Beginning epoch 768…
+[[34m2025-05-08 15:02:30[0m] Beginning epoch 769…
+[[34m2025-05-08 15:02:40[0m] (step=0015400) Train Loss: 0.1666, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:02:40[0m] (step=0015400) Train Loss: 0.1666, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:02:40[0m] Beginning epoch 770…
+[[34m2025-05-08 15:02:50[0m] Beginning epoch 771…
+[[34m2025-05-08 15:03:00[0m] Beginning epoch 772…
+[[34m2025-05-08 15:03:10[0m] Beginning epoch 773…
+[[34m2025-05-08 15:03:20[0m] Beginning epoch 774…
+[[34m2025-05-08 15:03:30[0m] (step=0015500) Train Loss: 0.1626, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:03:30[0m] (step=0015500) Train Loss: 0.1626, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:03:30[0m] Beginning epoch 775…
+[[34m2025-05-08 15:03:40[0m] Beginning epoch 776…
+[[34m2025-05-08 15:03:50[0m] Beginning epoch 777…
+[[34m2025-05-08 15:04:00[0m] Beginning epoch 778…
+[[34m2025-05-08 15:04:10[0m] Beginning epoch 779…
+[[34m2025-05-08 15:04:20[0m] (step=0015600) Train Loss: 0.1691, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:04:20[0m] (step=0015600) Train Loss: 0.1691, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:04:20[0m] Beginning epoch 780…
+[[34m2025-05-08 15:04:30[0m] Beginning epoch 781…
+[[34m2025-05-08 15:04:40[0m] Beginning epoch 782…
+[[34m2025-05-08 15:04:50[0m] Beginning epoch 783…
+[[34m2025-05-08 15:05:00[0m] Beginning epoch 784…
+[[34m2025-05-08 15:05:10[0m] (step=0015700) Train Loss: 0.1685, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:05:10[0m] (step=0015700) Train Loss: 0.1685, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:05:10[0m] Beginning epoch 785…
+[[34m2025-05-08 15:05:20[0m] Beginning epoch 786…
+[[34m2025-05-08 15:05:30[0m] Beginning epoch 787…
+[[34m2025-05-08 15:05:40[0m] Beginning epoch 788…
+[[34m2025-05-08 15:05:50[0m] Beginning epoch 789…
+[[34m2025-05-08 15:05:59[0m] (step=0015800) Train Loss: 0.1721, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:05:59[0m] (step=0015800) Train Loss: 0.1721, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:05:59[0m] Beginning epoch 790…
+[[34m2025-05-08 15:06:09[0m] Beginning epoch 791…
+[[34m2025-05-08 15:06:19[0m] Beginning epoch 792…
+[[34m2025-05-08 15:06:29[0m] Beginning epoch 793…
+[[34m2025-05-08 15:06:39[0m] Beginning epoch 794…
+[[34m2025-05-08 15:06:49[0m] (step=0015900) Train Loss: 0.1697, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:06:49[0m] (step=0015900) Train Loss: 0.1697, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:06:49[0m] Beginning epoch 795…
+[[34m2025-05-08 15:06:59[0m] Beginning epoch 796…
+[[34m2025-05-08 15:07:09[0m] Beginning epoch 797…
+[[34m2025-05-08 15:07:19[0m] Beginning epoch 798…
+[[34m2025-05-08 15:07:29[0m] Beginning epoch 799…
+[[34m2025-05-08 15:07:39[0m] (step=0016000) Train Loss: 0.1660, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:07:39[0m] (step=0016000) Train Loss: 0.1660, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:07:39[0m] Beginning epoch 800…
+[[34m2025-05-08 15:07:49[0m] Beginning epoch 801…
+[[34m2025-05-08 15:07:59[0m] Beginning epoch 802…
+[[34m2025-05-08 15:08:09[0m] Beginning epoch 803…
+[[34m2025-05-08 15:08:19[0m] Beginning epoch 804…
+[[34m2025-05-08 15:08:29[0m] (step=0016100) Train Loss: 0.1704, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:08:29[0m] (step=0016100) Train Loss: 0.1704, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:08:29[0m] Beginning epoch 805…
+[[34m2025-05-08 15:08:39[0m] Beginning epoch 806…
+[[34m2025-05-08 15:08:49[0m] Beginning epoch 807…
+[[34m2025-05-08 15:08:58[0m] Beginning epoch 808…
+[[34m2025-05-08 15:09:08[0m] Beginning epoch 809…
+[[34m2025-05-08 15:09:18[0m] (step=0016200) Train Loss: 0.1688, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:09:18[0m] (step=0016200) Train Loss: 0.1688, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:09:18[0m] Beginning epoch 810…
+[[34m2025-05-08 15:09:28[0m] Beginning epoch 811…
+[[34m2025-05-08 15:09:38[0m] Beginning epoch 812…
+[[34m2025-05-08 15:09:48[0m] Beginning epoch 813…
+[[34m2025-05-08 15:09:58[0m] Beginning epoch 814…
+[[34m2025-05-08 15:10:08[0m] (step=0016300) Train Loss: 0.1711, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:10:08[0m] (step=0016300) Train Loss: 0.1711, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:10:08[0m] Beginning epoch 815…
+[[34m2025-05-08 15:10:18[0m] Beginning epoch 816…
+[[34m2025-05-08 15:10:28[0m] Beginning epoch 817…
+[[34m2025-05-08 15:10:38[0m] Beginning epoch 818…
+[[34m2025-05-08 15:10:48[0m] Beginning epoch 819…
+[[34m2025-05-08 15:10:58[0m] (step=0016400) Train Loss: 0.1674, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:10:58[0m] (step=0016400) Train Loss: 0.1674, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:10:58[0m] Beginning epoch 820…
+[[34m2025-05-08 15:11:08[0m] Beginning epoch 821…
+[[34m2025-05-08 15:11:18[0m] Beginning epoch 822…
+[[34m2025-05-08 15:11:28[0m] Beginning epoch 823…
+[[34m2025-05-08 15:11:38[0m] Beginning epoch 824…
+[[34m2025-05-08 15:11:48[0m] (step=0016500) Train Loss: 0.1676, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:11:48[0m] (step=0016500) Train Loss: 0.1676, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:11:48[0m] Beginning epoch 825…
+[[34m2025-05-08 15:11:58[0m] Beginning epoch 826…
+[[34m2025-05-08 15:12:07[0m] Beginning epoch 827…
+[[34m2025-05-08 15:12:17[0m] Beginning epoch 828…
+[[34m2025-05-08 15:12:27[0m] Beginning epoch 829…
+[[34m2025-05-08 15:12:37[0m] (step=0016600) Train Loss: 0.1758, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:12:37[0m] (step=0016600) Train Loss: 0.1758, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:12:37[0m] Beginning epoch 830…
+[[34m2025-05-08 15:12:47[0m] Beginning epoch 831…
+[[34m2025-05-08 15:12:57[0m] Beginning epoch 832…
+[[34m2025-05-08 15:13:07[0m] Beginning epoch 833…
+[[34m2025-05-08 15:13:17[0m] Beginning epoch 834…
+[[34m2025-05-08 15:13:27[0m] (step=0016700) Train Loss: 0.1681, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:13:27[0m] (step=0016700) Train Loss: 0.1681, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:13:27[0m] Beginning epoch 835…
+[[34m2025-05-08 15:13:37[0m] Beginning epoch 836…
+[[34m2025-05-08 15:13:47[0m] Beginning epoch 837…
+[[34m2025-05-08 15:13:57[0m] Beginning epoch 838…
+[[34m2025-05-08 15:14:07[0m] Beginning epoch 839…
+[[34m2025-05-08 15:14:17[0m] (step=0016800) Train Loss: 0.1682, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:14:17[0m] (step=0016800) Train Loss: 0.1682, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:14:17[0m] Beginning epoch 840…
+[[34m2025-05-08 15:14:27[0m] Beginning epoch 841…
+[[34m2025-05-08 15:14:37[0m] Beginning epoch 842…
+[[34m2025-05-08 15:14:47[0m] Beginning epoch 843…
+[[34m2025-05-08 15:14:57[0m] Beginning epoch 844…
+[[34m2025-05-08 15:15:07[0m] (step=0016900) Train Loss: 0.1692, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:15:07[0m] (step=0016900) Train Loss: 0.1692, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:15:07[0m] Beginning epoch 845…
+[[34m2025-05-08 15:15:17[0m] Beginning epoch 846…
+[[34m2025-05-08 15:15:27[0m] Beginning epoch 847…
+[[34m2025-05-08 15:15:36[0m] Beginning epoch 848…
+[[34m2025-05-08 15:15:46[0m] Beginning epoch 849…
+[[34m2025-05-08 15:15:56[0m] (step=0017000) Train Loss: 0.1669, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:15:56[0m] (step=0017000) Train Loss: 0.1669, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:15:56[0m] Beginning epoch 850…
+[[34m2025-05-08 15:16:06[0m] Beginning epoch 851…
+[[34m2025-05-08 15:16:16[0m] Beginning epoch 852…
+[[34m2025-05-08 15:16:26[0m] Beginning epoch 853…
+[[34m2025-05-08 15:16:36[0m] Beginning epoch 854…
+[[34m2025-05-08 15:16:46[0m] (step=0017100) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:16:46[0m] (step=0017100) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:16:46[0m] Beginning epoch 855…
+[[34m2025-05-08 15:16:56[0m] Beginning epoch 856…
+[[34m2025-05-08 15:17:06[0m] Beginning epoch 857…
+[[34m2025-05-08 15:17:16[0m] Beginning epoch 858…
+[[34m2025-05-08 15:17:26[0m] Beginning epoch 859…
+[[34m2025-05-08 15:17:36[0m] (step=0017200) Train Loss: 0.1673, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:17:36[0m] (step=0017200) Train Loss: 0.1673, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:17:36[0m] Beginning epoch 860…
+[[34m2025-05-08 15:17:46[0m] Beginning epoch 861…
+[[34m2025-05-08 15:17:56[0m] Beginning epoch 862…
+[[34m2025-05-08 15:18:06[0m] Beginning epoch 863…
+[[34m2025-05-08 15:18:16[0m] Beginning epoch 864…
+[[34m2025-05-08 15:18:26[0m] (step=0017300) Train Loss: 0.1656, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:18:26[0m] (step=0017300) Train Loss: 0.1656, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:18:26[0m] Beginning epoch 865…
+[[34m2025-05-08 15:18:36[0m] Beginning epoch 866…
+[[34m2025-05-08 15:18:46[0m] Beginning epoch 867…
+[[34m2025-05-08 15:18:56[0m] Beginning epoch 868…
+[[34m2025-05-08 15:19:05[0m] Beginning epoch 869…
+[[34m2025-05-08 15:19:15[0m] (step=0017400) Train Loss: 0.1589, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:19:15[0m] (step=0017400) Train Loss: 0.1589, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:19:15[0m] Beginning epoch 870…
+[[34m2025-05-08 15:19:25[0m] Beginning epoch 871…
+[[34m2025-05-08 15:19:35[0m] Beginning epoch 872…
+[[34m2025-05-08 15:19:45[0m] Beginning epoch 873…
+[[34m2025-05-08 15:19:55[0m] Beginning epoch 874…
+[[34m2025-05-08 15:20:05[0m] (step=0017500) Train Loss: 0.1683, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:20:05[0m] (step=0017500) Train Loss: 0.1683, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:20:05[0m] Beginning epoch 875…
+[[34m2025-05-08 15:20:15[0m] Beginning epoch 876…
+[[34m2025-05-08 15:20:25[0m] Beginning epoch 877…
+[[34m2025-05-08 15:20:35[0m] Beginning epoch 878…
+[[34m2025-05-08 15:20:45[0m] Beginning epoch 879…
+[[34m2025-05-08 15:20:55[0m] (step=0017600) Train Loss: 0.1681, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:20:55[0m] (step=0017600) Train Loss: 0.1681, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:20:55[0m] Beginning epoch 880…
+[[34m2025-05-08 15:21:05[0m] Beginning epoch 881…
+[[34m2025-05-08 15:21:15[0m] Beginning epoch 882…
+[[34m2025-05-08 15:21:25[0m] Beginning epoch 883…
+[[34m2025-05-08 15:21:35[0m] Beginning epoch 884…
+[[34m2025-05-08 15:21:44[0m] (step=0017700) Train Loss: 0.1696, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:21:44[0m] (step=0017700) Train Loss: 0.1696, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:21:45[0m] Beginning epoch 885…
+[[34m2025-05-08 15:21:54[0m] Beginning epoch 886…
+[[34m2025-05-08 15:22:04[0m] Beginning epoch 887…
+[[34m2025-05-08 15:22:14[0m] Beginning epoch 888…
+[[34m2025-05-08 15:22:24[0m] Beginning epoch 889…
+[[34m2025-05-08 15:22:34[0m] (step=0017800) Train Loss: 0.1672, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:22:34[0m] (step=0017800) Train Loss: 0.1672, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:22:34[0m] Beginning epoch 890…
+[[34m2025-05-08 15:22:44[0m] Beginning epoch 891…
+[[34m2025-05-08 15:22:54[0m] Beginning epoch 892…
+[[34m2025-05-08 15:23:04[0m] Beginning epoch 893…
+[[34m2025-05-08 15:23:14[0m] Beginning epoch 894…
+[[34m2025-05-08 15:23:24[0m] (step=0017900) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:23:24[0m] (step=0017900) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:23:24[0m] Beginning epoch 895…
+[[34m2025-05-08 15:23:34[0m] Beginning epoch 896…
+[[34m2025-05-08 15:23:44[0m] Beginning epoch 897…
+[[34m2025-05-08 15:23:54[0m] Beginning epoch 898…
+[[34m2025-05-08 15:24:04[0m] Beginning epoch 899…
+[[34m2025-05-08 15:24:14[0m] (step=0018000) Train Loss: 0.1691, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:24:14[0m] (step=0018000) Train Loss: 0.1691, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:24:14[0m] Beginning epoch 900…
+[[34m2025-05-08 15:24:24[0m] Beginning epoch 901…
+[[34m2025-05-08 15:24:34[0m] Beginning epoch 902…
+[[34m2025-05-08 15:24:44[0m] Beginning epoch 903…
+[[34m2025-05-08 15:24:54[0m] Beginning epoch 904…
+[[34m2025-05-08 15:25:03[0m] (step=0018100) Train Loss: 0.1611, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:25:03[0m] (step=0018100) Train Loss: 0.1611, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:25:03[0m] Beginning epoch 905…
+[[34m2025-05-08 15:25:13[0m] Beginning epoch 906…
+[[34m2025-05-08 15:25:23[0m] Beginning epoch 907…
+[[34m2025-05-08 15:25:33[0m] Beginning epoch 908…
+[[34m2025-05-08 15:25:43[0m] Beginning epoch 909…
+[[34m2025-05-08 15:25:53[0m] (step=0018200) Train Loss: 0.1638, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:25:53[0m] (step=0018200) Train Loss: 0.1638, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:25:53[0m] Beginning epoch 910…
+[[34m2025-05-08 15:26:03[0m] Beginning epoch 911…
+[[34m2025-05-08 15:26:13[0m] Beginning epoch 912…
+[[34m2025-05-08 15:26:23[0m] Beginning epoch 913…
+[[34m2025-05-08 15:26:33[0m] Beginning epoch 914…
+[[34m2025-05-08 15:26:43[0m] (step=0018300) Train Loss: 0.1664, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:26:43[0m] (step=0018300) Train Loss: 0.1664, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:26:43[0m] Beginning epoch 915…
+[[34m2025-05-08 15:26:53[0m] Beginning epoch 916…
+[[34m2025-05-08 15:27:03[0m] Beginning epoch 917…
+[[34m2025-05-08 15:27:13[0m] Beginning epoch 918…
+[[34m2025-05-08 15:27:23[0m] Beginning epoch 919…
+[[34m2025-05-08 15:27:33[0m] (step=0018400) Train Loss: 0.1630, Train Steps/Sec: 2.00
+[[34m2025-05-08 15:27:33[0m] (step=0018400) Train Loss: 0.1630, Train Steps/Sec: 2.00
+[[34m2025-05-08 15:27:33[0m] Beginning epoch 920…
+[[34m2025-05-08 15:27:43[0m] Beginning epoch 921…
+[[34m2025-05-08 15:27:53[0m] Beginning epoch 922…
+[[34m2025-05-08 15:28:03[0m] Beginning epoch 923…
+[[34m2025-05-08 15:28:12[0m] Beginning epoch 924…
+[[34m2025-05-08 15:28:22[0m] (step=0018500) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:28:22[0m] (step=0018500) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:28:22[0m] Beginning epoch 925…
+[[34m2025-05-08 15:28:32[0m] Beginning epoch 926…
+[[34m2025-05-08 15:28:42[0m] Beginning epoch 927…
+[[34m2025-05-08 15:28:52[0m] Beginning epoch 928…
+[[34m2025-05-08 15:29:02[0m] Beginning epoch 929…
+[[34m2025-05-08 15:29:12[0m] (step=0018600) Train Loss: 0.1655, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:29:12[0m] (step=0018600) Train Loss: 0.1655, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:29:12[0m] Beginning epoch 930…
+[[34m2025-05-08 15:29:22[0m] Beginning epoch 931…
+[[34m2025-05-08 15:29:32[0m] Beginning epoch 932…
+[[34m2025-05-08 15:29:42[0m] Beginning epoch 933…
+[[34m2025-05-08 15:29:52[0m] Beginning epoch 934…
+[[34m2025-05-08 15:30:02[0m] (step=0018700) Train Loss: 0.1688, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:30:02[0m] (step=0018700) Train Loss: 0.1688, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:30:02[0m] Beginning epoch 935…
+[[34m2025-05-08 15:30:12[0m] Beginning epoch 936…
+[[34m2025-05-08 15:30:22[0m] Beginning epoch 937…
+[[34m2025-05-08 15:30:32[0m] Beginning epoch 938…
+[[34m2025-05-08 15:30:42[0m] Beginning epoch 939…
+[[34m2025-05-08 15:30:52[0m] (step=0018800) Train Loss: 0.1648, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:30:52[0m] (step=0018800) Train Loss: 0.1648, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:30:52[0m] Beginning epoch 940…
+[[34m2025-05-08 15:31:02[0m] Beginning epoch 941…
+[[34m2025-05-08 15:31:12[0m] Beginning epoch 942…
+[[34m2025-05-08 15:31:21[0m] Beginning epoch 943…
+[[34m2025-05-08 15:31:31[0m] Beginning epoch 944…
+[[34m2025-05-08 15:31:41[0m] (step=0018900) Train Loss: 0.1662, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:31:41[0m] (step=0018900) Train Loss: 0.1662, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:31:41[0m] Beginning epoch 945…
+[[34m2025-05-08 15:31:51[0m] Beginning epoch 946…
+[[34m2025-05-08 15:32:01[0m] Beginning epoch 947…
+[[34m2025-05-08 15:32:11[0m] Beginning epoch 948…
+[[34m2025-05-08 15:32:21[0m] Beginning epoch 949…
+[[34m2025-05-08 15:32:31[0m] (step=0019000) Train Loss: 0.1650, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:32:31[0m] (step=0019000) Train Loss: 0.1650, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:32:31[0m] Beginning epoch 950…
+[[34m2025-05-08 15:32:41[0m] Beginning epoch 951…
+[[34m2025-05-08 15:32:51[0m] Beginning epoch 952…
+[[34m2025-05-08 15:33:01[0m] Beginning epoch 953…
+[[34m2025-05-08 15:33:11[0m] Beginning epoch 954…
+[[34m2025-05-08 15:33:21[0m] (step=0019100) Train Loss: 0.1644, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:33:21[0m] (step=0019100) Train Loss: 0.1644, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:33:21[0m] Beginning epoch 955…
+[[34m2025-05-08 15:33:31[0m] Beginning epoch 956…
+[[34m2025-05-08 15:33:41[0m] Beginning epoch 957…
+[[34m2025-05-08 15:33:51[0m] Beginning epoch 958…
+[[34m2025-05-08 15:34:01[0m] Beginning epoch 959…
+[[34m2025-05-08 15:34:11[0m] (step=0019200) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:34:11[0m] (step=0019200) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:34:11[0m] Beginning epoch 960…
+[[34m2025-05-08 15:34:21[0m] Beginning epoch 961…
+[[34m2025-05-08 15:34:31[0m] Beginning epoch 962…
+[[34m2025-05-08 15:34:41[0m] Beginning epoch 963…
+[[34m2025-05-08 15:34:50[0m] Beginning epoch 964…
+[[34m2025-05-08 15:35:00[0m] (step=0019300) Train Loss: 0.1650, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:35:00[0m] (step=0019300) Train Loss: 0.1650, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:35:00[0m] Beginning epoch 965…
+[[34m2025-05-08 15:35:10[0m] Beginning epoch 966…
+[[34m2025-05-08 15:35:20[0m] Beginning epoch 967…
+[[34m2025-05-08 15:35:30[0m] Beginning epoch 968…
+[[34m2025-05-08 15:35:40[0m] Beginning epoch 969…
+[[34m2025-05-08 15:35:50[0m] (step=0019400) Train Loss: 0.1674, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:35:50[0m] (step=0019400) Train Loss: 0.1674, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:35:50[0m] Beginning epoch 970…
+[[34m2025-05-08 15:36:00[0m] Beginning epoch 971…
+[[34m2025-05-08 15:36:10[0m] Beginning epoch 972…
+[[34m2025-05-08 15:36:20[0m] Beginning epoch 973…
+[[34m2025-05-08 15:36:30[0m] Beginning epoch 974…
+[[34m2025-05-08 15:36:40[0m] (step=0019500) Train Loss: 0.1651, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:36:40[0m] (step=0019500) Train Loss: 0.1651, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:36:40[0m] Beginning epoch 975…
+[[34m2025-05-08 15:36:50[0m] Beginning epoch 976…
+[[34m2025-05-08 15:37:00[0m] Beginning epoch 977…
+[[34m2025-05-08 15:37:10[0m] Beginning epoch 978…
+[[34m2025-05-08 15:37:20[0m] Beginning epoch 979…
+[[34m2025-05-08 15:37:30[0m] (step=0019600) Train Loss: 0.1674, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:37:30[0m] (step=0019600) Train Loss: 0.1674, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:37:30[0m] Beginning epoch 980…
+[[34m2025-05-08 15:37:40[0m] Beginning epoch 981…
+[[34m2025-05-08 15:37:50[0m] Beginning epoch 982…
+[[34m2025-05-08 15:38:00[0m] Beginning epoch 983…
+[[34m2025-05-08 15:38:10[0m] Beginning epoch 984…
+[[34m2025-05-08 15:38:20[0m] (step=0019700) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:38:20[0m] (step=0019700) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:38:20[0m] Beginning epoch 985…
+[[34m2025-05-08 15:38:30[0m] Beginning epoch 986…
+[[34m2025-05-08 15:38:40[0m] Beginning epoch 987…
+[[34m2025-05-08 15:38:50[0m] Beginning epoch 988…
+[[34m2025-05-08 15:38:59[0m] Beginning epoch 989…
+[[34m2025-05-08 15:39:09[0m] (step=0019800) Train Loss: 0.1669, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:39:09[0m] (step=0019800) Train Loss: 0.1669, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:39:09[0m] Beginning epoch 990…
+[[34m2025-05-08 15:39:19[0m] Beginning epoch 991…
+[[34m2025-05-08 15:39:29[0m] Beginning epoch 992…
+[[34m2025-05-08 15:39:39[0m] Beginning epoch 993…
+[[34m2025-05-08 15:39:49[0m] Beginning epoch 994…
+[[34m2025-05-08 15:39:59[0m] (step=0019900) Train Loss: 0.1663, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:39:59[0m] (step=0019900) Train Loss: 0.1663, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:39:59[0m] Beginning epoch 995…
+[[34m2025-05-08 15:40:09[0m] Beginning epoch 996…
+[[34m2025-05-08 15:40:19[0m] Beginning epoch 997…
+[[34m2025-05-08 15:40:29[0m] Beginning epoch 998…
+[[34m2025-05-08 15:40:39[0m] Beginning epoch 999…
+[[34m2025-05-08 15:40:49[0m] (step=0020000) Train Loss: 0.1618, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:40:49[0m] (step=0020000) Train Loss: 0.1618, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:40:49[0m] Beginning epoch 1000…
+[[34m2025-05-08 15:40:59[0m] Beginning epoch 1001…
+[[34m2025-05-08 15:41:09[0m] Beginning epoch 1002…
+[[34m2025-05-08 15:41:19[0m] Beginning epoch 1003…
+[[34m2025-05-08 15:41:29[0m] Beginning epoch 1004…
+[[34m2025-05-08 15:41:39[0m] (step=0020100) Train Loss: 0.1656, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:41:39[0m] (step=0020100) Train Loss: 0.1656, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:41:39[0m] Beginning epoch 1005…
+[[34m2025-05-08 15:41:49[0m] Beginning epoch 1006…
+[[34m2025-05-08 15:41:59[0m] Beginning epoch 1007…
+[[34m2025-05-08 15:42:08[0m] Beginning epoch 1008…
+[[34m2025-05-08 15:42:18[0m] Beginning epoch 1009…
+[[34m2025-05-08 15:42:28[0m] (step=0020200) Train Loss: 0.1673, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:42:28[0m] (step=0020200) Train Loss: 0.1673, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:42:28[0m] Beginning epoch 1010…
+[[34m2025-05-08 15:42:38[0m] Beginning epoch 1011…
+[[34m2025-05-08 15:42:48[0m] Beginning epoch 1012…
+[[34m2025-05-08 15:42:58[0m] Beginning epoch 1013…
+[[34m2025-05-08 15:43:08[0m] Beginning epoch 1014…
+[[34m2025-05-08 15:43:18[0m] (step=0020300) Train Loss: 0.1643, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:43:18[0m] (step=0020300) Train Loss: 0.1643, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:43:18[0m] Beginning epoch 1015…
+[[34m2025-05-08 15:43:28[0m] Beginning epoch 1016…
+[[34m2025-05-08 15:43:38[0m] Beginning epoch 1017…
+[[34m2025-05-08 15:43:48[0m] Beginning epoch 1018…
+[[34m2025-05-08 15:43:58[0m] Beginning epoch 1019…
+[[34m2025-05-08 15:44:08[0m] (step=0020400) Train Loss: 0.1671, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:44:08[0m] (step=0020400) Train Loss: 0.1671, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:44:08[0m] Beginning epoch 1020…
+[[34m2025-05-08 15:44:18[0m] Beginning epoch 1021…
+[[34m2025-05-08 15:44:28[0m] Beginning epoch 1022…
+[[34m2025-05-08 15:44:38[0m] Beginning epoch 1023…
+[[34m2025-05-08 15:44:48[0m] Beginning epoch 1024…
+[[34m2025-05-08 15:44:58[0m] (step=0020500) Train Loss: 0.1688, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:44:58[0m] (step=0020500) Train Loss: 0.1688, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:44:58[0m] Beginning epoch 1025…
+[[34m2025-05-08 15:45:08[0m] Beginning epoch 1026…
+[[34m2025-05-08 15:45:18[0m] Beginning epoch 1027…
+[[34m2025-05-08 15:45:28[0m] Beginning epoch 1028…
+[[34m2025-05-08 15:45:37[0m] Beginning epoch 1029…
+[[34m2025-05-08 15:45:47[0m] (step=0020600) Train Loss: 0.1636, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:45:47[0m] (step=0020600) Train Loss: 0.1636, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:45:47[0m] Beginning epoch 1030…
+[[34m2025-05-08 15:45:57[0m] Beginning epoch 1031…
+[[34m2025-05-08 15:46:07[0m] Beginning epoch 1032…
+[[34m2025-05-08 15:46:17[0m] Beginning epoch 1033…
+[[34m2025-05-08 15:46:27[0m] Beginning epoch 1034…
+[[34m2025-05-08 15:46:37[0m] (step=0020700) Train Loss: 0.1622, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:46:37[0m] (step=0020700) Train Loss: 0.1622, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:46:37[0m] Beginning epoch 1035…
+[[34m2025-05-08 15:46:47[0m] Beginning epoch 1036…
+[[34m2025-05-08 15:46:57[0m] Beginning epoch 1037…
+[[34m2025-05-08 15:47:07[0m] Beginning epoch 1038…
+[[34m2025-05-08 15:47:17[0m] Beginning epoch 1039…
+[[34m2025-05-08 15:47:27[0m] (step=0020800) Train Loss: 0.1633, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:47:27[0m] (step=0020800) Train Loss: 0.1633, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:47:27[0m] Beginning epoch 1040…
+[[34m2025-05-08 15:47:37[0m] Beginning epoch 1041…
+[[34m2025-05-08 15:47:47[0m] Beginning epoch 1042…
+[[34m2025-05-08 15:47:57[0m] Beginning epoch 1043…
+[[34m2025-05-08 15:48:07[0m] Beginning epoch 1044…
+[[34m2025-05-08 15:48:17[0m] (step=0020900) Train Loss: 0.1650, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:48:17[0m] (step=0020900) Train Loss: 0.1650, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:48:17[0m] Beginning epoch 1045…
+[[34m2025-05-08 15:48:27[0m] Beginning epoch 1046…
+[[34m2025-05-08 15:48:37[0m] Beginning epoch 1047…
+[[34m2025-05-08 15:48:47[0m] Beginning epoch 1048…
+[[34m2025-05-08 15:48:57[0m] Beginning epoch 1049…
+[[34m2025-05-08 15:49:07[0m] (step=0021000) Train Loss: 0.1584, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:49:07[0m] (step=0021000) Train Loss: 0.1584, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:49:07[0m] Beginning epoch 1050…
+[[34m2025-05-08 15:49:17[0m] Beginning epoch 1051…
+[[34m2025-05-08 15:49:27[0m] Beginning epoch 1052…
+[[34m2025-05-08 15:49:37[0m] Beginning epoch 1053…
+[[34m2025-05-08 15:49:46[0m] Beginning epoch 1054…
+[[34m2025-05-08 15:49:56[0m] (step=0021100) Train Loss: 0.1624, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:49:56[0m] (step=0021100) Train Loss: 0.1624, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:49:56[0m] Beginning epoch 1055…
+[[34m2025-05-08 15:50:06[0m] Beginning epoch 1056…
+[[34m2025-05-08 15:50:16[0m] Beginning epoch 1057…
+[[34m2025-05-08 15:50:26[0m] Beginning epoch 1058…
+[[34m2025-05-08 15:50:36[0m] Beginning epoch 1059…
+[[34m2025-05-08 15:50:46[0m] (step=0021200) Train Loss: 0.1614, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:50:46[0m] (step=0021200) Train Loss: 0.1614, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:50:46[0m] Beginning epoch 1060…
+[[34m2025-05-08 15:50:56[0m] Beginning epoch 1061…
+[[34m2025-05-08 15:51:06[0m] Beginning epoch 1062…
+[[34m2025-05-08 15:51:16[0m] Beginning epoch 1063…
+[[34m2025-05-08 15:51:26[0m] Beginning epoch 1064…
+[[34m2025-05-08 15:51:36[0m] (step=0021300) Train Loss: 0.1627, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:51:36[0m] (step=0021300) Train Loss: 0.1627, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:51:36[0m] Beginning epoch 1065…
+[[34m2025-05-08 15:51:46[0m] Beginning epoch 1066…
+[[34m2025-05-08 15:51:56[0m] Beginning epoch 1067…
+[[34m2025-05-08 15:52:06[0m] Beginning epoch 1068…
+[[34m2025-05-08 15:52:16[0m] Beginning epoch 1069…
+[[34m2025-05-08 15:52:26[0m] (step=0021400) Train Loss: 0.1612, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:52:26[0m] (step=0021400) Train Loss: 0.1612, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:52:26[0m] Beginning epoch 1070…
+[[34m2025-05-08 15:52:36[0m] Beginning epoch 1071…
+[[34m2025-05-08 15:52:46[0m] Beginning epoch 1072…
+[[34m2025-05-08 15:52:56[0m] Beginning epoch 1073…
+[[34m2025-05-08 15:53:06[0m] Beginning epoch 1074…
+[[34m2025-05-08 15:53:16[0m] (step=0021500) Train Loss: 0.1612, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:53:16[0m] (step=0021500) Train Loss: 0.1612, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:53:16[0m] Beginning epoch 1075…
+[[34m2025-05-08 15:53:26[0m] Beginning epoch 1076…
+[[34m2025-05-08 15:53:36[0m] Beginning epoch 1077…
+[[34m2025-05-08 15:53:46[0m] Beginning epoch 1078…
+[[34m2025-05-08 15:53:55[0m] Beginning epoch 1079…
+[[34m2025-05-08 15:54:05[0m] (step=0021600) Train Loss: 0.1624, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:54:05[0m] (step=0021600) Train Loss: 0.1624, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:54:05[0m] Beginning epoch 1080…
+[[34m2025-05-08 15:54:15[0m] Beginning epoch 1081…
+[[34m2025-05-08 15:54:25[0m] Beginning epoch 1082…
+[[34m2025-05-08 15:54:35[0m] Beginning epoch 1083…
+[[34m2025-05-08 15:54:45[0m] Beginning epoch 1084…
+[[34m2025-05-08 15:54:55[0m] (step=0021700) Train Loss: 0.1671, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:54:55[0m] (step=0021700) Train Loss: 0.1671, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:54:55[0m] Beginning epoch 1085…
+[[34m2025-05-08 15:55:05[0m] Beginning epoch 1086…
+[[34m2025-05-08 15:55:15[0m] Beginning epoch 1087…
+[[34m2025-05-08 15:55:25[0m] Beginning epoch 1088…
+[[34m2025-05-08 15:55:35[0m] Beginning epoch 1089…
+[[34m2025-05-08 15:55:45[0m] (step=0021800) Train Loss: 0.1647, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:55:45[0m] (step=0021800) Train Loss: 0.1647, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:55:45[0m] Beginning epoch 1090…
+[[34m2025-05-08 15:55:55[0m] Beginning epoch 1091…
+[[34m2025-05-08 15:56:05[0m] Beginning epoch 1092…
+[[34m2025-05-08 15:56:15[0m] Beginning epoch 1093…
+[[34m2025-05-08 15:56:25[0m] Beginning epoch 1094…
+[[34m2025-05-08 15:56:35[0m] (step=0021900) Train Loss: 0.1647, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:56:35[0m] (step=0021900) Train Loss: 0.1647, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:56:35[0m] Beginning epoch 1095…
+[[34m2025-05-08 15:56:45[0m] Beginning epoch 1096…
+[[34m2025-05-08 15:56:55[0m] Beginning epoch 1097…
+[[34m2025-05-08 15:57:05[0m] Beginning epoch 1098…
+[[34m2025-05-08 15:57:15[0m] Beginning epoch 1099…
+[[34m2025-05-08 15:57:24[0m] (step=0022000) Train Loss: 0.1583, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:57:24[0m] (step=0022000) Train Loss: 0.1583, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:57:25[0m] Beginning epoch 1100…
+[[34m2025-05-08 15:57:34[0m] Beginning epoch 1101…
+[[34m2025-05-08 15:57:44[0m] Beginning epoch 1102…
+[[34m2025-05-08 15:57:54[0m] Beginning epoch 1103…
+[[34m2025-05-08 15:58:04[0m] Beginning epoch 1104…
+[[34m2025-05-08 15:58:14[0m] (step=0022100) Train Loss: 0.1664, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:58:14[0m] (step=0022100) Train Loss: 0.1664, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:58:14[0m] Beginning epoch 1105…
+[[34m2025-05-08 15:58:24[0m] Beginning epoch 1106…
+[[34m2025-05-08 15:58:34[0m] Beginning epoch 1107…
+[[34m2025-05-08 15:58:44[0m] Beginning epoch 1108…
+[[34m2025-05-08 15:58:54[0m] Beginning epoch 1109…
+[[34m2025-05-08 15:59:04[0m] (step=0022200) Train Loss: 0.1665, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:59:04[0m] (step=0022200) Train Loss: 0.1665, Train Steps/Sec: 2.01
+[[34m2025-05-08 15:59:07[0m] Beginning epoch 1110…
+[[34m2025-05-08 15:59:16[0m] Beginning epoch 1111…
+[[34m2025-05-08 15:59:26[0m] Beginning epoch 1112…
+[[34m2025-05-08 15:59:36[0m] Beginning epoch 1113…
+[[34m2025-05-08 15:59:46[0m] Beginning epoch 1114…
+[[34m2025-05-08 15:59:56[0m] (step=0022300) Train Loss: 0.1598, Train Steps/Sec: 1.91
+[[34m2025-05-08 15:59:56[0m] (step=0022300) Train Loss: 0.1598, Train Steps/Sec: 1.91
+[[34m2025-05-08 15:59:56[0m] Beginning epoch 1115…
+[[34m2025-05-08 16:00:06[0m] Beginning epoch 1116…
+[[34m2025-05-08 16:00:16[0m] Beginning epoch 1117…
+[[34m2025-05-08 16:00:26[0m] Beginning epoch 1118…
+[[34m2025-05-08 16:00:36[0m] Beginning epoch 1119…
+[[34m2025-05-08 16:00:46[0m] (step=0022400) Train Loss: 0.1611, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:00:46[0m] (step=0022400) Train Loss: 0.1611, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:00:46[0m] Beginning epoch 1120…
+[[34m2025-05-08 16:00:56[0m] Beginning epoch 1121…
+[[34m2025-05-08 16:01:06[0m] Beginning epoch 1122…
+[[34m2025-05-08 16:01:16[0m] Beginning epoch 1123…
+[[34m2025-05-08 16:01:26[0m] Beginning epoch 1124…
+[[34m2025-05-08 16:01:36[0m] (step=0022500) Train Loss: 0.1640, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:01:36[0m] (step=0022500) Train Loss: 0.1640, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:01:36[0m] Beginning epoch 1125…
+[[34m2025-05-08 16:01:46[0m] Beginning epoch 1126…
+[[34m2025-05-08 16:01:56[0m] Beginning epoch 1127…
+[[34m2025-05-08 16:02:06[0m] Beginning epoch 1128…
+[[34m2025-05-08 16:02:15[0m] Beginning epoch 1129…
+[[34m2025-05-08 16:02:25[0m] (step=0022600) Train Loss: 0.1682, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:02:25[0m] (step=0022600) Train Loss: 0.1682, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:02:25[0m] Beginning epoch 1130…
+[[34m2025-05-08 16:02:35[0m] Beginning epoch 1131…
+[[34m2025-05-08 16:02:45[0m] Beginning epoch 1132…
+[[34m2025-05-08 16:02:55[0m] Beginning epoch 1133…
+[[34m2025-05-08 16:03:05[0m] Beginning epoch 1134…
+[[34m2025-05-08 16:03:15[0m] (step=0022700) Train Loss: 0.1616, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:03:15[0m] (step=0022700) Train Loss: 0.1616, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:03:15[0m] Beginning epoch 1135…
+[[34m2025-05-08 16:03:25[0m] Beginning epoch 1136…
+[[34m2025-05-08 16:03:35[0m] Beginning epoch 1137…
+[[34m2025-05-08 16:03:45[0m] Beginning epoch 1138…
+[[34m2025-05-08 16:03:55[0m] Beginning epoch 1139…
+[[34m2025-05-08 16:04:05[0m] (step=0022800) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:04:05[0m] (step=0022800) Train Loss: 0.1635, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:04:05[0m] Beginning epoch 1140…
+[[34m2025-05-08 16:04:15[0m] Beginning epoch 1141…
+[[34m2025-05-08 16:04:25[0m] Beginning epoch 1142…
+[[34m2025-05-08 16:04:35[0m] Beginning epoch 1143…
+[[34m2025-05-08 16:04:45[0m] Beginning epoch 1144…
+[[34m2025-05-08 16:04:55[0m] (step=0022900) Train Loss: 0.1683, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:04:55[0m] (step=0022900) Train Loss: 0.1683, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:04:55[0m] Beginning epoch 1145…
+[[34m2025-05-08 16:05:05[0m] Beginning epoch 1146…
+[[34m2025-05-08 16:05:15[0m] Beginning epoch 1147…
+[[34m2025-05-08 16:05:25[0m] Beginning epoch 1148…
+[[34m2025-05-08 16:05:34[0m] Beginning epoch 1149…
+[[34m2025-05-08 16:05:44[0m] (step=0023000) Train Loss: 0.1662, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:05:44[0m] (step=0023000) Train Loss: 0.1662, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:05:44[0m] Beginning epoch 1150…
+[[34m2025-05-08 16:05:54[0m] Beginning epoch 1151…
+[[34m2025-05-08 16:06:04[0m] Beginning epoch 1152…
+[[34m2025-05-08 16:06:16[0m] Beginning epoch 1153…
+[[34m2025-05-08 16:06:26[0m] Beginning epoch 1154…
+[[34m2025-05-08 16:06:36[0m] (step=0023100) Train Loss: 0.1577, Train Steps/Sec: 1.95
+[[34m2025-05-08 16:06:36[0m] (step=0023100) Train Loss: 0.1577, Train Steps/Sec: 1.95
+[[34m2025-05-08 16:06:36[0m] Beginning epoch 1155…
+[[34m2025-05-08 16:06:46[0m] Beginning epoch 1156…
+[[34m2025-05-08 16:06:56[0m] Beginning epoch 1157…
+[[34m2025-05-08 16:07:05[0m] Beginning epoch 1158…
+[[34m2025-05-08 16:07:15[0m] Beginning epoch 1159…
+[[34m2025-05-08 16:07:25[0m] (step=0023200) Train Loss: 0.1629, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:07:25[0m] (step=0023200) Train Loss: 0.1629, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:07:26[0m] Beginning epoch 1160…
+[[34m2025-05-08 16:07:36[0m] Beginning epoch 1161…
+[[34m2025-05-08 16:07:45[0m] Beginning epoch 1162…
+[[34m2025-05-08 16:07:55[0m] Beginning epoch 1163…
+[[34m2025-05-08 16:08:05[0m] Beginning epoch 1164…
+[[34m2025-05-08 16:08:15[0m] (step=0023300) Train Loss: 0.1601, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:08:15[0m] (step=0023300) Train Loss: 0.1601, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:08:15[0m] Beginning epoch 1165…
+[[34m2025-05-08 16:08:25[0m] Beginning epoch 1166…
+[[34m2025-05-08 16:08:35[0m] Beginning epoch 1167…
+[[34m2025-05-08 16:08:46[0m] Beginning epoch 1168…
+[[34m2025-05-08 16:08:56[0m] Beginning epoch 1169…
+[[34m2025-05-08 16:09:06[0m] (step=0023400) Train Loss: 0.1607, Train Steps/Sec: 1.97
+[[34m2025-05-08 16:09:06[0m] (step=0023400) Train Loss: 0.1607, Train Steps/Sec: 1.97
+[[34m2025-05-08 16:09:06[0m] Beginning epoch 1170…
+[[34m2025-05-08 16:09:16[0m] Beginning epoch 1171…
+[[34m2025-05-08 16:09:26[0m] Beginning epoch 1172…
+[[34m2025-05-08 16:09:36[0m] Beginning epoch 1173…
+[[34m2025-05-08 16:09:46[0m] Beginning epoch 1174…
+[[34m2025-05-08 16:09:56[0m] (step=0023500) Train Loss: 0.1592, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:09:56[0m] (step=0023500) Train Loss: 0.1592, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:09:56[0m] Beginning epoch 1175…
+[[34m2025-05-08 16:10:06[0m] Beginning epoch 1176…
+[[34m2025-05-08 16:10:16[0m] Beginning epoch 1177…
+[[34m2025-05-08 16:10:26[0m] Beginning epoch 1178…
+[[34m2025-05-08 16:10:36[0m] Beginning epoch 1179…
+[[34m2025-05-08 16:10:45[0m] (step=0023600) Train Loss: 0.1588, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:10:45[0m] (step=0023600) Train Loss: 0.1588, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:10:46[0m] Beginning epoch 1180…
+[[34m2025-05-08 16:10:56[0m] Beginning epoch 1181…
+[[34m2025-05-08 16:11:06[0m] Beginning epoch 1182…
+[[34m2025-05-08 16:11:15[0m] Beginning epoch 1183…
+[[34m2025-05-08 16:11:25[0m] Beginning epoch 1184…
+[[34m2025-05-08 16:11:35[0m] (step=0023700) Train Loss: 0.1565, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:11:35[0m] (step=0023700) Train Loss: 0.1565, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:11:35[0m] Beginning epoch 1185…
+[[34m2025-05-08 16:11:45[0m] Beginning epoch 1186…
+[[34m2025-05-08 16:11:55[0m] Beginning epoch 1187…
+[[34m2025-05-08 16:12:05[0m] Beginning epoch 1188…
+[[34m2025-05-08 16:12:15[0m] Beginning epoch 1189…
+[[34m2025-05-08 16:12:25[0m] (step=0023800) Train Loss: 0.1585, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:12:25[0m] (step=0023800) Train Loss: 0.1585, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:12:25[0m] Beginning epoch 1190…
+[[34m2025-05-08 16:12:35[0m] Beginning epoch 1191…
+[[34m2025-05-08 16:12:45[0m] Beginning epoch 1192…
+[[34m2025-05-08 16:12:55[0m] Beginning epoch 1193…
+[[34m2025-05-08 16:13:05[0m] Beginning epoch 1194…
+[[34m2025-05-08 16:13:15[0m] (step=0023900) Train Loss: 0.1634, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:13:15[0m] (step=0023900) Train Loss: 0.1634, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:13:15[0m] Beginning epoch 1195…
+[[34m2025-05-08 16:13:25[0m] Beginning epoch 1196…
+[[34m2025-05-08 16:13:35[0m] Beginning epoch 1197…
+[[34m2025-05-08 16:13:45[0m] Beginning epoch 1198…
+[[34m2025-05-08 16:13:55[0m] Beginning epoch 1199…
+[[34m2025-05-08 16:14:04[0m] (step=0024000) Train Loss: 0.1621, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:14:04[0m] (step=0024000) Train Loss: 0.1621, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:14:05[0m] Beginning epoch 1200…
+[[34m2025-05-08 16:14:14[0m] Beginning epoch 1201…
+[[34m2025-05-08 16:14:24[0m] Beginning epoch 1202…
+[[34m2025-05-08 16:14:34[0m] Beginning epoch 1203…
+[[34m2025-05-08 16:14:44[0m] Beginning epoch 1204…
+[[34m2025-05-08 16:14:54[0m] (step=0024100) Train Loss: 0.1640, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:14:54[0m] (step=0024100) Train Loss: 0.1640, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:14:54[0m] Beginning epoch 1205…
+[[34m2025-05-08 16:15:04[0m] Beginning epoch 1206…
+[[34m2025-05-08 16:15:14[0m] Beginning epoch 1207…
+[[34m2025-05-08 16:15:24[0m] Beginning epoch 1208…
+[[34m2025-05-08 16:15:34[0m] Beginning epoch 1209…
+[[34m2025-05-08 16:15:44[0m] (step=0024200) Train Loss: 0.1601, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:15:44[0m] (step=0024200) Train Loss: 0.1601, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:15:44[0m] Beginning epoch 1210…
+[[34m2025-05-08 16:15:54[0m] Beginning epoch 1211…
+[[34m2025-05-08 16:16:04[0m] Beginning epoch 1212…
+[[34m2025-05-08 16:16:14[0m] Beginning epoch 1213…
+[[34m2025-05-08 16:16:24[0m] Beginning epoch 1214…
+[[34m2025-05-08 16:16:34[0m] (step=0024300) Train Loss: 0.1653, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:16:34[0m] (step=0024300) Train Loss: 0.1653, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:16:34[0m] Beginning epoch 1215…
+[[34m2025-05-08 16:16:44[0m] Beginning epoch 1216…
+[[34m2025-05-08 16:16:54[0m] Beginning epoch 1217…
+[[34m2025-05-08 16:17:04[0m] Beginning epoch 1218…
+[[34m2025-05-08 16:17:14[0m] Beginning epoch 1219…
+[[34m2025-05-08 16:17:24[0m] (step=0024400) Train Loss: 0.1615, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:17:24[0m] (step=0024400) Train Loss: 0.1615, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:17:24[0m] Beginning epoch 1220…
+[[34m2025-05-08 16:17:34[0m] Beginning epoch 1221…
+[[34m2025-05-08 16:17:44[0m] Beginning epoch 1222…
+[[34m2025-05-08 16:17:54[0m] Beginning epoch 1223…
+[[34m2025-05-08 16:18:03[0m] Beginning epoch 1224…
+[[34m2025-05-08 16:18:13[0m] (step=0024500) Train Loss: 0.1653, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:18:13[0m] (step=0024500) Train Loss: 0.1653, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:18:13[0m] Beginning epoch 1225…
+[[34m2025-05-08 16:18:23[0m] Beginning epoch 1226…
+[[34m2025-05-08 16:18:33[0m] Beginning epoch 1227…
+[[34m2025-05-08 16:18:43[0m] Beginning epoch 1228…
+[[34m2025-05-08 16:18:53[0m] Beginning epoch 1229…
+[[34m2025-05-08 16:19:03[0m] (step=0024600) Train Loss: 0.1632, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:19:03[0m] (step=0024600) Train Loss: 0.1632, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:19:03[0m] Beginning epoch 1230…
+[[34m2025-05-08 16:19:13[0m] Beginning epoch 1231…
+[[34m2025-05-08 16:19:23[0m] Beginning epoch 1232…
+[[34m2025-05-08 16:19:33[0m] Beginning epoch 1233…
+[[34m2025-05-08 16:19:43[0m] Beginning epoch 1234…
+[[34m2025-05-08 16:19:53[0m] (step=0024700) Train Loss: 0.1599, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:19:53[0m] (step=0024700) Train Loss: 0.1599, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:19:53[0m] Beginning epoch 1235…
+[[34m2025-05-08 16:20:03[0m] Beginning epoch 1236…
+[[34m2025-05-08 16:20:13[0m] Beginning epoch 1237…
+[[34m2025-05-08 16:20:23[0m] Beginning epoch 1238…
+[[34m2025-05-08 16:20:33[0m] Beginning epoch 1239…
+[[34m2025-05-08 16:20:43[0m] (step=0024800) Train Loss: 0.1636, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:20:43[0m] (step=0024800) Train Loss: 0.1636, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:20:43[0m] Beginning epoch 1240…
+[[34m2025-05-08 16:20:53[0m] Beginning epoch 1241…
+[[34m2025-05-08 16:21:03[0m] Beginning epoch 1242…
+[[34m2025-05-08 16:21:13[0m] Beginning epoch 1243…
+[[34m2025-05-08 16:21:23[0m] Beginning epoch 1244…
+[[34m2025-05-08 16:21:32[0m] (step=0024900) Train Loss: 0.1616, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:21:32[0m] (step=0024900) Train Loss: 0.1616, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:21:33[0m] Beginning epoch 1245…
+[[34m2025-05-08 16:21:42[0m] Beginning epoch 1246…
+[[34m2025-05-08 16:21:52[0m] Beginning epoch 1247…
+[[34m2025-05-08 16:22:02[0m] Beginning epoch 1248…
+[[34m2025-05-08 16:22:12[0m] Beginning epoch 1249…
+[[34m2025-05-08 16:22:22[0m] (step=0025000) Train Loss: 0.1569, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:22:22[0m] (step=0025000) Train Loss: 0.1569, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:22:22[0m] Beginning epoch 1250…
+[[34m2025-05-08 16:22:32[0m] Beginning epoch 1251…
+[[34m2025-05-08 16:22:42[0m] Beginning epoch 1252…
+[[34m2025-05-08 16:22:52[0m] Beginning epoch 1253…
+[[34m2025-05-08 16:23:02[0m] Beginning epoch 1254…
+[[34m2025-05-08 16:23:12[0m] (step=0025100) Train Loss: 0.1609, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:23:12[0m] (step=0025100) Train Loss: 0.1609, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:23:12[0m] Beginning epoch 1255…
+[[34m2025-05-08 16:23:22[0m] Beginning epoch 1256…
+[[34m2025-05-08 16:23:32[0m] Beginning epoch 1257…
+[[34m2025-05-08 16:23:42[0m] Beginning epoch 1258…
+[[34m2025-05-08 16:23:52[0m] Beginning epoch 1259…
+[[34m2025-05-08 16:24:02[0m] (step=0025200) Train Loss: 0.1586, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:24:02[0m] (step=0025200) Train Loss: 0.1586, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:24:02[0m] Beginning epoch 1260…
+[[34m2025-05-08 16:24:12[0m] Beginning epoch 1261…
+[[34m2025-05-08 16:24:22[0m] Beginning epoch 1262…
+[[34m2025-05-08 16:24:32[0m] Beginning epoch 1263…
+[[34m2025-05-08 16:24:42[0m] Beginning epoch 1264…
+[[34m2025-05-08 16:24:52[0m] (step=0025300) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:24:52[0m] (step=0025300) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:24:52[0m] Beginning epoch 1265…
+[[34m2025-05-08 16:25:02[0m] Beginning epoch 1266…
+[[34m2025-05-08 16:25:11[0m] Beginning epoch 1267…
+[[34m2025-05-08 16:25:21[0m] Beginning epoch 1268…
+[[34m2025-05-08 16:25:31[0m] Beginning epoch 1269…
+[[34m2025-05-08 16:25:41[0m] (step=0025400) Train Loss: 0.1610, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:25:41[0m] (step=0025400) Train Loss: 0.1610, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:25:41[0m] Beginning epoch 1270…
+[[34m2025-05-08 16:25:51[0m] Beginning epoch 1271…
+[[34m2025-05-08 16:26:01[0m] Beginning epoch 1272…
+[[34m2025-05-08 16:26:11[0m] Beginning epoch 1273…
+[[34m2025-05-08 16:26:21[0m] Beginning epoch 1274…
+[[34m2025-05-08 16:26:31[0m] (step=0025500) Train Loss: 0.1659, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:26:31[0m] (step=0025500) Train Loss: 0.1659, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:26:31[0m] Beginning epoch 1275…
+[[34m2025-05-08 16:26:41[0m] Beginning epoch 1276…
+[[34m2025-05-08 16:26:51[0m] Beginning epoch 1277…
+[[34m2025-05-08 16:27:01[0m] Beginning epoch 1278…
+[[34m2025-05-08 16:27:11[0m] Beginning epoch 1279…
+[[34m2025-05-08 16:27:21[0m] (step=0025600) Train Loss: 0.1599, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:27:21[0m] (step=0025600) Train Loss: 0.1599, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:27:21[0m] Beginning epoch 1280…
+[[34m2025-05-08 16:27:31[0m] Beginning epoch 1281…
+[[34m2025-05-08 16:27:41[0m] Beginning epoch 1282…
+[[34m2025-05-08 16:27:51[0m] Beginning epoch 1283…
+[[34m2025-05-08 16:28:01[0m] Beginning epoch 1284…
+[[34m2025-05-08 16:28:11[0m] (step=0025700) Train Loss: 0.1658, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:28:11[0m] (step=0025700) Train Loss: 0.1658, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:28:11[0m] Beginning epoch 1285…
+[[34m2025-05-08 16:28:21[0m] Beginning epoch 1286…
+[[34m2025-05-08 16:28:31[0m] Beginning epoch 1287…
+[[34m2025-05-08 16:28:41[0m] Beginning epoch 1288…
+[[34m2025-05-08 16:28:51[0m] Beginning epoch 1289…
+[[34m2025-05-08 16:29:00[0m] (step=0025800) Train Loss: 0.1586, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:29:00[0m] (step=0025800) Train Loss: 0.1586, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:29:01[0m] Beginning epoch 1290…
+[[34m2025-05-08 16:29:10[0m] Beginning epoch 1291…
+[[34m2025-05-08 16:29:20[0m] Beginning epoch 1292…
+[[34m2025-05-08 16:29:30[0m] Beginning epoch 1293…
+[[34m2025-05-08 16:29:40[0m] Beginning epoch 1294…
+[[34m2025-05-08 16:29:50[0m] (step=0025900) Train Loss: 0.1592, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:29:50[0m] (step=0025900) Train Loss: 0.1592, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:29:50[0m] Beginning epoch 1295…
+[[34m2025-05-08 16:30:00[0m] Beginning epoch 1296…
+[[34m2025-05-08 16:30:10[0m] Beginning epoch 1297…
+[[34m2025-05-08 16:30:20[0m] Beginning epoch 1298…
+[[34m2025-05-08 16:30:30[0m] Beginning epoch 1299…
+[[34m2025-05-08 16:30:40[0m] (step=0026000) Train Loss: 0.1707, Train Steps/Sec: 2.00
+[[34m2025-05-08 16:30:40[0m] (step=0026000) Train Loss: 0.1707, Train Steps/Sec: 2.00
+[[34m2025-05-08 16:30:40[0m] Beginning epoch 1300…
+[[34m2025-05-08 16:30:50[0m] Beginning epoch 1301…
+[[34m2025-05-08 16:31:00[0m] Beginning epoch 1302…
+[[34m2025-05-08 16:31:10[0m] Beginning epoch 1303…
+[[34m2025-05-08 16:31:20[0m] Beginning epoch 1304…
+[[34m2025-05-08 16:31:30[0m] (step=0026100) Train Loss: 0.1637, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:31:30[0m] (step=0026100) Train Loss: 0.1637, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:31:30[0m] Beginning epoch 1305…
+[[34m2025-05-08 16:31:40[0m] Beginning epoch 1306…
+[[34m2025-05-08 16:31:50[0m] Beginning epoch 1307…
+[[34m2025-05-08 16:32:00[0m] Beginning epoch 1308…
+[[34m2025-05-08 16:32:10[0m] Beginning epoch 1309…
+[[34m2025-05-08 16:32:20[0m] (step=0026200) Train Loss: 0.1592, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:32:20[0m] (step=0026200) Train Loss: 0.1592, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:32:20[0m] Beginning epoch 1310…
+[[34m2025-05-08 16:32:30[0m] Beginning epoch 1311…
+[[34m2025-05-08 16:32:40[0m] Beginning epoch 1312…
+[[34m2025-05-08 16:32:50[0m] Beginning epoch 1313…
+[[34m2025-05-08 16:32:59[0m] Beginning epoch 1314…
+[[34m2025-05-08 16:33:09[0m] (step=0026300) Train Loss: 0.1561, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:33:09[0m] (step=0026300) Train Loss: 0.1561, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:33:09[0m] Beginning epoch 1315…
+[[34m2025-05-08 16:33:19[0m] Beginning epoch 1316…
+[[34m2025-05-08 16:33:29[0m] Beginning epoch 1317…
+[[34m2025-05-08 16:33:39[0m] Beginning epoch 1318…
+[[34m2025-05-08 16:33:49[0m] Beginning epoch 1319…
+[[34m2025-05-08 16:33:59[0m] (step=0026400) Train Loss: 0.1628, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:33:59[0m] (step=0026400) Train Loss: 0.1628, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:33:59[0m] Beginning epoch 1320…
+[[34m2025-05-08 16:34:09[0m] Beginning epoch 1321…
+[[34m2025-05-08 16:34:19[0m] Beginning epoch 1322…
+[[34m2025-05-08 16:34:29[0m] Beginning epoch 1323…
+[[34m2025-05-08 16:34:39[0m] Beginning epoch 1324…
+[[34m2025-05-08 16:34:49[0m] (step=0026500) Train Loss: 0.1643, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:34:49[0m] (step=0026500) Train Loss: 0.1643, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:34:49[0m] Beginning epoch 1325…
+[[34m2025-05-08 16:34:59[0m] Beginning epoch 1326…
+[[34m2025-05-08 16:35:09[0m] Beginning epoch 1327…
+[[34m2025-05-08 16:35:19[0m] Beginning epoch 1328…
+[[34m2025-05-08 16:35:29[0m] Beginning epoch 1329…
+[[34m2025-05-08 16:35:39[0m] (step=0026600) Train Loss: 0.1574, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:35:39[0m] (step=0026600) Train Loss: 0.1574, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:35:39[0m] Beginning epoch 1330…
+[[34m2025-05-08 16:35:49[0m] Beginning epoch 1331…
+[[34m2025-05-08 16:35:59[0m] Beginning epoch 1332…
+[[34m2025-05-08 16:36:09[0m] Beginning epoch 1333…
+[[34m2025-05-08 16:36:19[0m] Beginning epoch 1334…
+[[34m2025-05-08 16:36:29[0m] (step=0026700) Train Loss: 0.1578, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:36:29[0m] (step=0026700) Train Loss: 0.1578, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:36:29[0m] Beginning epoch 1335…
+[[34m2025-05-08 16:36:39[0m] Beginning epoch 1336…
+[[34m2025-05-08 16:36:49[0m] Beginning epoch 1337…
+[[34m2025-05-08 16:36:59[0m] Beginning epoch 1338…
+[[34m2025-05-08 16:37:09[0m] Beginning epoch 1339…
+[[34m2025-05-08 16:37:18[0m] (step=0026800) Train Loss: 0.1623, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:37:18[0m] (step=0026800) Train Loss: 0.1623, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:37:19[0m] Beginning epoch 1340…
+[[34m2025-05-08 16:37:29[0m] Beginning epoch 1341…
+[[34m2025-05-08 16:37:38[0m] Beginning epoch 1342…
+[[34m2025-05-08 16:37:48[0m] Beginning epoch 1343…
+[[34m2025-05-08 16:37:58[0m] Beginning epoch 1344…
+[[34m2025-05-08 16:38:08[0m] (step=0026900) Train Loss: 0.1563, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:38:08[0m] (step=0026900) Train Loss: 0.1563, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:38:08[0m] Beginning epoch 1345…
+[[34m2025-05-08 16:38:18[0m] Beginning epoch 1346…
+[[34m2025-05-08 16:38:28[0m] Beginning epoch 1347…
+[[34m2025-05-08 16:38:38[0m] Beginning epoch 1348…
+[[34m2025-05-08 16:38:48[0m] Beginning epoch 1349…
+[[34m2025-05-08 16:38:58[0m] (step=0027000) Train Loss: 0.1636, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:38:58[0m] (step=0027000) Train Loss: 0.1636, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:38:58[0m] Beginning epoch 1350…
+[[34m2025-05-08 16:39:08[0m] Beginning epoch 1351…
+[[34m2025-05-08 16:39:18[0m] Beginning epoch 1352…
+[[34m2025-05-08 16:39:28[0m] Beginning epoch 1353…
+[[34m2025-05-08 16:39:38[0m] Beginning epoch 1354…
+[[34m2025-05-08 16:39:48[0m] (step=0027100) Train Loss: 0.1575, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:39:48[0m] (step=0027100) Train Loss: 0.1575, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:39:48[0m] Beginning epoch 1355…
+[[34m2025-05-08 16:39:58[0m] Beginning epoch 1356…
+[[34m2025-05-08 16:40:08[0m] Beginning epoch 1357…
+[[34m2025-05-08 16:40:18[0m] Beginning epoch 1358…
+[[34m2025-05-08 16:40:28[0m] Beginning epoch 1359…
+[[34m2025-05-08 16:40:38[0m] (step=0027200) Train Loss: 0.1564, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:40:38[0m] (step=0027200) Train Loss: 0.1564, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:40:38[0m] Beginning epoch 1360…
+[[34m2025-05-08 16:40:48[0m] Beginning epoch 1361…
+[[34m2025-05-08 16:40:57[0m] Beginning epoch 1362…
+[[34m2025-05-08 16:41:07[0m] Beginning epoch 1363…
+[[34m2025-05-08 16:41:17[0m] Beginning epoch 1364…
+[[34m2025-05-08 16:41:27[0m] (step=0027300) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:41:27[0m] (step=0027300) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:41:27[0m] Beginning epoch 1365…
+[[34m2025-05-08 16:41:37[0m] Beginning epoch 1366…
+[[34m2025-05-08 16:41:47[0m] Beginning epoch 1367…
+[[34m2025-05-08 16:41:57[0m] Beginning epoch 1368…
+[[34m2025-05-08 16:42:07[0m] Beginning epoch 1369…
+[[34m2025-05-08 16:42:17[0m] (step=0027400) Train Loss: 0.1580, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:42:17[0m] (step=0027400) Train Loss: 0.1580, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:42:17[0m] Beginning epoch 1370…
+[[34m2025-05-08 16:42:27[0m] Beginning epoch 1371…
+[[34m2025-05-08 16:42:37[0m] Beginning epoch 1372…
+[[34m2025-05-08 16:42:47[0m] Beginning epoch 1373…
+[[34m2025-05-08 16:42:57[0m] Beginning epoch 1374…
+[[34m2025-05-08 16:43:07[0m] (step=0027500) Train Loss: 0.1615, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:43:07[0m] (step=0027500) Train Loss: 0.1615, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:43:07[0m] Beginning epoch 1375…
+[[34m2025-05-08 16:43:17[0m] Beginning epoch 1376…
+[[34m2025-05-08 16:43:27[0m] Beginning epoch 1377…
+[[34m2025-05-08 16:43:37[0m] Beginning epoch 1378…
+[[34m2025-05-08 16:43:47[0m] Beginning epoch 1379…
+[[34m2025-05-08 16:43:57[0m] (step=0027600) Train Loss: 0.1634, Train Steps/Sec: 1.98
+[[34m2025-05-08 16:43:57[0m] (step=0027600) Train Loss: 0.1634, Train Steps/Sec: 1.98
+[[34m2025-05-08 16:43:57[0m] Beginning epoch 1380…
+[[34m2025-05-08 16:44:07[0m] Beginning epoch 1381…
+[[34m2025-05-08 16:44:17[0m] Beginning epoch 1382…
+[[34m2025-05-08 16:44:27[0m] Beginning epoch 1383…
+[[34m2025-05-08 16:44:37[0m] Beginning epoch 1384…
+[[34m2025-05-08 16:44:47[0m] (step=0027700) Train Loss: 0.1563, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:44:47[0m] (step=0027700) Train Loss: 0.1563, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:44:47[0m] Beginning epoch 1385…
+[[34m2025-05-08 16:44:57[0m] Beginning epoch 1386…
+[[34m2025-05-08 16:45:07[0m] Beginning epoch 1387…
+[[34m2025-05-08 16:45:17[0m] Beginning epoch 1388…
+[[34m2025-05-08 16:45:27[0m] Beginning epoch 1389…
+[[34m2025-05-08 16:45:37[0m] (step=0027800) Train Loss: 0.1524, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:45:37[0m] (step=0027800) Train Loss: 0.1524, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:45:37[0m] Beginning epoch 1390…
+[[34m2025-05-08 16:45:47[0m] Beginning epoch 1391…
+[[34m2025-05-08 16:45:57[0m] Beginning epoch 1392…
+[[34m2025-05-08 16:46:07[0m] Beginning epoch 1393…
+[[34m2025-05-08 16:46:17[0m] Beginning epoch 1394…
+[[34m2025-05-08 16:46:26[0m] (step=0027900) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:46:26[0m] (step=0027900) Train Loss: 0.1670, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:46:27[0m] Beginning epoch 1395…
+[[34m2025-05-08 16:46:36[0m] Beginning epoch 1396…
+[[34m2025-05-08 16:46:46[0m] Beginning epoch 1397…
+[[34m2025-05-08 16:46:56[0m] Beginning epoch 1398…
+[[34m2025-05-08 16:47:06[0m] Beginning epoch 1399…
+[[34m2025-05-08 16:47:16[0m] (step=0028000) Train Loss: 0.1646, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:47:16[0m] (step=0028000) Train Loss: 0.1646, Train Steps/Sec: 2.01
+[[34m2025-05-08 16:47:16[0m] Done!

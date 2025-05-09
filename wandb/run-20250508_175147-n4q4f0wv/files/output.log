@@ -1,0 +1,35 @@
+[[34m2025-05-08 17:51:48[0m] Dataset contains 1,300 images (/NAS/Data/imagenet_trucks)
+[[34m2025-05-08 17:51:48[0m] Training for 1400 epochs...
+[[34m2025-05-08 17:51:48[0m] Beginning epoch 0…
+Traceback (most recent call last):
+  File "/home/kha98/Desktop/DiT/train.py", line 346, in <module>
+    main(args)
+  File "/home/kha98/Desktop/DiT/train.py", line 273, in main
+    loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+    return super().training_losses(self._wrap_model(model), *args, **kwargs)
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 759, in training_losses
+    terms["vb"] = self._vb_terms_bpd(
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 693, in _vb_terms_bpd
+    true_mean, _, true_log_variance_clipped = self.q_posterior_mean_variance(
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 239, in q_posterior_mean_variance
+    _extract_into_tensor(self.posterior_mean_coef1, t, x_t.shape) * x_start
+  File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+    res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 346, in <module>
+[rank0]:     main(args)
+[rank0]:   File "/home/kha98/Desktop/DiT/train.py", line 273, in main
+[rank0]:     loss_dict = diffusion.training_losses(model, x, t, model_kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/respace.py", line 97, in training_losses
+[rank0]:     return super().training_losses(self._wrap_model(model), *args, **kwargs)
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 759, in training_losses
+[rank0]:     terms["vb"] = self._vb_terms_bpd(
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 693, in _vb_terms_bpd
+[rank0]:     true_mean, _, true_log_variance_clipped = self.q_posterior_mean_variance(
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 239, in q_posterior_mean_variance
+[rank0]:     _extract_into_tensor(self.posterior_mean_coef1, t, x_t.shape) * x_start
+[rank0]:   File "/home/kha98/Desktop/DiT/diffusion/gaussian_diffusion.py", line 870, in _extract_into_tensor
+[rank0]:     res = th.from_numpy(arr).to(device=timesteps.device)[timesteps].float()
+[rank0]: KeyboardInterrupt
