@@ -179,7 +179,6 @@ def main(args):
             num_classes=args.num_classes
         ).to(device)
         model.load_state_dict(checkpoint["model"])
-        model.eval()
 
         # 3) Restore EMA
         ema = deepcopy(model)
@@ -188,7 +187,8 @@ def main(args):
 
         # 4) Wrap model in DDP (if using distributed)
         model = DDP(model, device_ids=[rank])
-
+        model.train()            # <-- re‑enable dropout & BatchNorm updates
+        ema.eval()               #     keep EMA inference‑only
         # 5) Recreate optimizer and load its state
         opt = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0)
         opt.load_state_dict(checkpoint["opt"])
@@ -265,7 +265,7 @@ def main(args):
     start_time = time()
 
     logger.info(f"Training for {args.epochs} epochs...")
-    for epoch in range(start_epoch, args.epochs):
+    for epoch in range(start_epoch, 5000000):
         sampler.set_epoch(epoch)
         logger.info(f"Beginning epoch {epoch}…")
         for x, y in loader:
@@ -346,6 +346,6 @@ if __name__ == "__main__":
     parser.add_argument("--vae", type=str, choices=["ema", "mse"], default="ema")  # Choice doesn't affect training
     parser.add_argument("--num-workers", type=int, default=4)
     parser.add_argument("--log-every", type=int, default=100)
-    parser.add_argument("--ckpt-every", type=int, default=6000)
+    parser.add_argument("--ckpt-every", type=int, default=5000)
     args = parser.parse_args()
     main(args)

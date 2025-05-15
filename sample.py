@@ -13,7 +13,7 @@ torch.backends.cudnn.allow_tf32 = True
 from torchvision.utils import save_image
 from diffusion import create_diffusion
 from diffusers.models import AutoencoderKL
-from download import find_model
+from download import find_model, resume_from_checkpoint
 from models import DiT_models
 import argparse
 
@@ -37,7 +37,8 @@ def main(args):
     ).to(device)
     # Auto-download a pre-trained model or load a custom DiT checkpoint from train.py:
     ckpt_path = args.ckpt or f"DiT-XL-2-{args.image_size}x{args.image_size}.pt"
-    state_dict = find_model(ckpt_path)
+    ckpt = torch.load(ckpt_path, map_location=device,  weights_only=False)
+    state_dict = ckpt["model"] 
     model.load_state_dict(state_dict)
     model.eval()  # important!
     diffusion = create_diffusion(str(args.num_sampling_steps))
@@ -77,7 +78,7 @@ if __name__ == "__main__":
     parser.add_argument("--cfg-scale", type=float, default=4.0)
     parser.add_argument("--num-sampling-steps", type=int, default=250)
     parser.add_argument("--seed", type=int, default=0)
-    parser.add_argument("--ckpt", type=str, default="/NAS/kian/DiT/004-DiT-S-2/checkpoints/0012000.pt",
+    parser.add_argument("--ckpt", type=str, default="/NAS/kian/DiT-truck-25000/0025000.pt",
                         help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
     args = parser.parse_args()
     main(args)

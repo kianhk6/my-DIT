@@ -145,6 +145,16 @@ class LossSecondMomentResampler(LossAwareSampler):
             else:
                 self._loss_history[t, self._loss_counts[t]] = loss
                 self._loss_counts[t] += 1
+    
+    def state_dict(self):
+        return {
+            "loss_history": self._loss_history,
+            "loss_counts": self._loss_counts,
+        }
+
+    def load_state_dict(self, sd):
+        self._loss_history = sd["loss_history"]
+        self._loss_counts  = sd["loss_counts"]
 
     def _warmed_up(self):
         return (self._loss_counts == self.history_per_term).all()
