@@ -83,7 +83,7 @@ def main(args):
     # Create folder to save samples:
     model_string_name = args.model.replace("/", "-")
     ckpt_string_name = os.path.basename(args.ckpt).replace(".pt", "") if args.ckpt else "pretrained"
-    folder_name = f"hello-{model_string_name}-{ckpt_string_name}-nostops-truck" \
+    folder_name = f"hello-{model_string_name}-{ckpt_string_name}-{args.nickname}-truck" \
                   f"cfg-{args.cfg_scale}-seed-{args.global_seed}"
     sample_folder_dir = f"{args.sample_dir}/{folder_name}"
     if rank == 0:
@@ -164,5 +164,7 @@ if __name__ == "__main__":
                         help="By default, use TF32 matmuls. This massively accelerates sampling on Ampere GPUs.")
     parser.add_argument("--ckpt", type=str, default="/NAS/kian/DiT-truck-25000/0025000.pt",
                         help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
+    parser.add_argument("--nickname", type=str, default="",
+                    help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
     args = parser.parse_args()
     main(args)

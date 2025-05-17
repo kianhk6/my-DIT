@@ -166,12 +166,13 @@ def main(args):
     if args.ckpt_path is not None:
         ckpt_path = args.ckpt_path 
 
-        # 1) Load the full checkpoint
-        checkpoint = torch.load(
-            ckpt_path,
-            map_location=f"cuda:{device}",
-            weights_only=False   # disable weights-only sandbox
-        )
+        # Only rank 0 loads checkpoint
+        obj = [None]               # container — must be a list
+        if rank == 0:
+            obj[0] = torch.load(ckpt_path, map_location="cpu")
+
+        dist.broadcast_object_list(obj, src=0)  # all ranks reach this line
+        checkpoint = obj[0]        # now every rank has the same dict
 
         # 2) Restore model
         model = DiT_models[args.model](
@@ -187,19 +188,17 @@ def main(args):
 
         # 4) Wrap model in DDP (if using distributed)
         model = DDP(model, device_ids=[rank])
-        model.train()            # <-- re‑enable dropout & BatchNorm updates
-        ema.eval()               #     keep EMA inference‑only
+
         # 5) Recreate optimizer and load its state
         opt = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0)
         opt.load_state_dict(checkpoint["opt"])
-
-        total = 0
-        for state in opt.state.values():          # each state is itself a dict
-            for v in state.values():              # v might be an int or Tensor
+        # Convert optimizer tensors to proper devices
+        for state in opt.state.values():
+            for k, v in state.items():
                 if isinstance(v, torch.Tensor):
-                    total += v.numel()
+                    state[k] = v.to(device)
 
-        print(f"Total elements in optimizer state: {total}")
+        dist.barrier()
 
         diffusion = create_diffusion(timestep_respacing="")  # default: 1000 steps, linear noise schedule
         vae = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-{args.vae}").to(device)
@@ -215,20 +214,36 @@ def main(args):
     if rank == 0:
         # fresh run?
         if args.ckpt_path is None:
-            run = wandb.init(
-                project="DiT-trucks-retry",
-                name=f"DiT-{args.model}-exp{experiment_index:03d}",
-                config=vars(args),
-            )
+            if args.num_classes == 1:
+                run = wandb.init(
+                    project="DiT-CIDAR",
+                    name=f"DiT-trucks-rerun-{args.model}-exp{experiment_index:03d}",
+                    config=vars(args),
+                )
+            else:
+                run = wandb.init(
+                    project="DiT-CIDAR",
+                    name=f"DiT-imagenet-{args.model}-exp{experiment_index:03d}",
+                    config=vars(args),
+                )
         else:
-            # resuming
-            run = wandb.init(
-                project="DiT-trucks-retry",
-                id=checkpoint["wandb_id"],
-                resume="allow",
-                name=f"DiT-{args.model}-exp{experiment_index:03d}",
-                config=vars(args),
-            )
+            if args.num_classes == 1:
+                # resuming
+                run = wandb.init(
+                    project="DiT-CIDAR",
+                    id=checkpoint["wandb_id"],
+                    resume="allow",
+                    name=f"DiT-trucks-{args.model}-exp{experiment_index:03d}",
+                    config=vars(args),
+                )
+            else:
+                run = wandb.init(
+                    project="DiT-CIDAR",
+                    id=checkpoint["wandb_id"],
+                    resume="allow",
+                    name=f"DiT-imagenet-{args.model}-exp{experiment_index:03d}",
+                    config=vars(args),
+                )
         wandb_id = run.id
 
     # Setup data:
@@ -265,7 +280,7 @@ def main(args):
     start_time = time()
 
     logger.info(f"Training for {args.epochs} epochs...")
-    for epoch in range(start_epoch, 5000000):
+    for epoch in range(start_epoch, args.epochs):
         sampler.set_epoch(epoch)
         logger.info(f"Beginning epoch {epoch}…")
         for x, y in loader:
@@ -340,7 +355,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, choices=list(DiT_models.keys()), default="DiT-XL/2")
     parser.add_argument("--image-size", type=int, choices=[256, 512], default=256)
     parser.add_argument("--num-classes", type=int, default=1)
-    parser.add_argument("--epochs", type=int, default=1400)
+    parser.add_argument("--epochs", type=int, default=100000)
     parser.add_argument("--global-batch-size", type=int, default=64)
     parser.add_argument("--global-seed", type=int, default=0)
     parser.add_argument("--vae", type=str, choices=["ema", "mse"], default="ema")  # Choice doesn't affect training

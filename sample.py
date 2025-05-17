@@ -16,7 +16,7 @@ from diffusers.models import AutoencoderKL
 from download import find_model, resume_from_checkpoint
 from models import DiT_models
 import argparse
-
+import os
 
 def main(args):
     # Setup PyTorch:
@@ -45,7 +45,7 @@ def main(args):
     vae = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-{args.vae}").to(device)
 
     # Labels to condition the model with (feel free to change):
-    class_labels = [0]
+    class_labels = [1] * 20
 
     # Create sampling noise:
     n = len(class_labels)
@@ -54,19 +54,30 @@ def main(args):
 
     # Setup classifier-free guidance:
     z = torch.cat([z, z], 0)
-    y_null = torch.tensor([1] * n, device=device)
+    y_null = torch.tensor([100] * n, device=device)
     y = torch.cat([y, y_null], 0)
     model_kwargs = dict(y=y, cfg_scale=args.cfg_scale)
 
     # Sample images:
     samples = diffusion.p_sample_loop(
-        model.forward_with_cfg, z.shape, z, clip_denoised=False, model_kwargs=model_kwargs, progress=True, device=device
+        model.forward_with_cfg,
+        z.shape,
+        z,
+        clip_denoised=False,
+        model_kwargs=model_kwargs,
+        progress=True,
+        device=device
     )
     samples, _ = samples.chunk(2, dim=0)  # Remove null class samples
-    samples = vae.decode(samples / 0.18215).sample
+    samples = vae.decode(samples / 0.18215).sample  # (n, 3, H, W)
 
-    # Save and display images:
-    save_image(samples, "sample.png", nrow=4, normalize=True, value_range=(-1, 1))
+    # Make output folder
+    output_dir = "./generated_images"
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Save each image individually
+    for i, img in enumerate(samples):
+        save_image(img, os.path.join(output_dir, f"sample_{i:02d}.png"), normalize=True, value_range=(-1, 1))
 
 
 if __name__ == "__main__":
@@ -74,11 +85,11 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, choices=list(DiT_models.keys()), default="DiT-S/2")
     parser.add_argument("--vae", type=str, choices=["ema", "mse"], default="mse")
     parser.add_argument("--image-size", type=int, choices=[256, 512], default=256)
-    parser.add_argument("--num-classes", type=int, default=1)
+    parser.add_argument("--num-classes", type=int, default=100)
     parser.add_argument("--cfg-scale", type=float, default=4.0)
     parser.add_argument("--num-sampling-steps", type=int, default=250)
     parser.add_argument("--seed", type=int, default=0)
-    parser.add_argument("--ckpt", type=str, default="/NAS/kian/DiT-truck-25000/0025000.pt",
+    parser.add_argument("--ckpt", type=str, default="/home/kha98/Desktop/DiT/model-checkpoints/imagenet100/0260000.pt",
                         help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
     args = parser.parse_args()
     main(args)
