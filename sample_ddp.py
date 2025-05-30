@@ -83,13 +83,14 @@ def main(args):
     # Create folder to save samples:
     model_string_name = args.model.replace("/", "-")
     ckpt_string_name = os.path.basename(args.ckpt).replace(".pt", "") if args.ckpt else "pretrained"
-    folder_name = f"hello-{model_string_name}-{ckpt_string_name}-{args.nickname}-truck" \
+    folder_name = f"hello-{model_string_name}-{ckpt_string_name}-{args.nickname}-retry" \
                   f"cfg-{args.cfg_scale}-seed-{args.global_seed}"
     sample_folder_dir = f"{args.sample_dir}/{folder_name}"
     if rank == 0:
         os.makedirs(sample_folder_dir, exist_ok=True)
         print(f"Saving .png samples at {sample_folder_dir}")
     dist.barrier()
+    print(sample_folder_dir)
 
 
     # Figure out how many samples we need to generate on each GPU and how many iterations we need to run:
@@ -110,12 +111,12 @@ def main(args):
     for _ in pbar:
         # Sample inputs:
         z = torch.randn(n, model.in_channels, latent_size, latent_size, device=device)
-        y = torch.randint(0, args.num_classes, (n,), device=device)
-
+        y = torch.randint(70, args.num_classes, (n,), device=device)
+        # y = torch.full((n,), 69, device=device, dtype=torch.long)
         # Setup classifier-free guidance:
         if using_cfg:
             z = torch.cat([z, z], 0)
-            y_null = torch.tensor([1] * n, device=device)
+            y_null = torch.tensor([100] * n, device=device)
             y = torch.cat([y, y_null], 0)
             model_kwargs = dict(y=y, cfg_scale=args.cfg_scale)
             sample_fn = model.forward_with_cfg
@@ -154,17 +155,19 @@ if __name__ == "__main__":
     parser.add_argument("--vae",  type=str, choices=["ema", "mse"], default="ema")
     parser.add_argument("--sample-dir", type=str, default="samples")
     parser.add_argument("--per-proc-batch-size", type=int, default=128)
-    parser.add_argument("--num-fid-samples", type=int, default=5000)
+    parser.add_argument("--num-fid-samples", type=int, default=32)
     parser.add_argument("--image-size", type=int, choices=[256, 512], default=256)
-    parser.add_argument("--num-classes", type=int, default=1)
+    parser.add_argument("--num-classes", type=int, default=100)
     parser.add_argument("--cfg-scale",  type=float, default=1.5)
     parser.add_argument("--num-sampling-steps", type=int, default=250)
     parser.add_argument("--global-seed", type=int, default=0)
     parser.add_argument("--tf32", action=argparse.BooleanOptionalAction, default=True,
                         help="By default, use TF32 matmuls. This massively accelerates sampling on Ampere GPUs.")
-    parser.add_argument("--ckpt", type=str, default="/NAS/kian/DiT-truck-25000/0025000.pt",
+    parser.add_argument("--ckpt", type=str, default="/home/kha98/Desktop/my-DIT/kian/0260000.pt",
                         help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
     parser.add_argument("--nickname", type=str, default="",
                     help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
     args = parser.parse_args()
     main(args)
+
+
